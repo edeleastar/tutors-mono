@@ -12,6 +12,7 @@
 @import "@tutors/services/themes/styles/dyslexia.css";
 @import "@tutors/services/themes/styles/easter.css";
 @import "@tutors/services/themes/styles/prose-headings.css";
+@import "@tutors/ui/styles.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
 

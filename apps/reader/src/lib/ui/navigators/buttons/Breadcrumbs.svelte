@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Lo } from "@tutors/tutors-model-lib";
-  import Icon from "$lib/ui/components/Icon.svelte";
-  import TutorsIcon from "$lib/ui/components/TutorsIcon.svelte";
+  import Icon from "@tutors/ui/components/Icon.svelte";
+  import TutorsIcon from "@tutors/ui/components/TutorsIcon.svelte";
   import { t } from "@tutors/services/i18n";
 
   let { lo, parentCourse = null } = $props();

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from "$lib/ui/components/Icon.svelte";
+  import Icon from "@tutors/ui/components/Icon.svelte";
   interface Props {
     courseId: string;
     courseTitle: string;

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Menu from "$lib/ui/components/Menu.svelte";
-  import Icon from "$lib/ui/components/Icon.svelte";
+  import Menu from "@tutors/ui/components/Menu.svelte";
+  import Icon from "@tutors/ui/components/Icon.svelte";
   import LanguageSwitcher from "./layout/LanguageSwitcher.svelte";
   import AppearanceSwitcher from "./layout/AppearanceSwitcher.svelte";
   import CardStyleSwitcher from "./layout/CardStyleSwitcher.svelte";

@@ -2,7 +2,7 @@
   import Iconify from "@iconify/svelte";
   import { LoRecord } from "@tutors/services/community";
   import { cardStyles, type CardConfig, type CardDetails } from "@tutors/services/themes";
-  import Icon from "$lib/ui/components/Icon.svelte";
+  import Icon from "@tutors/ui/components/Icon.svelte";
   import { currentCourse } from "@tutors/services/runes";
   import { themeService } from "@tutors/services/themes";
   import StudentCard from "$lib/ui/time/StudentCard.svelte";

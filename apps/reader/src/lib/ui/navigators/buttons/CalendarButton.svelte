@@ -1,7 +1,7 @@
 <script lang="ts">
   import Calendar from "$lib/ui/learning-objects/content/Calendar.svelte";
-  import Sidebar from "$lib/ui/components/Sidebar.svelte";
-  import Icon from "$lib/ui/components/Icon.svelte";
+  import Sidebar from "@tutors/ui/components/Sidebar.svelte";
+  import Icon from "@tutors/ui/components/Icon.svelte";
   import { currentCourse } from "@tutors/services/runes";
   import { t } from "@tutors/services/i18n";
 </script>

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from "$app/state";
   import { currentCourse, currentLabStepIndex, currentLo } from "@tutors/services/runes";
-  import Icon from "$lib/ui/components/Icon.svelte";
+  import Icon from "@tutors/ui/components/Icon.svelte";
   import { t } from "@tutors/services/i18n";
 
   let editRoute = $state(currentCourse?.value?.properties.github);
