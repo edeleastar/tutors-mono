@@ -1,9 +1,0 @@
-bg-surface-100-900
-card
-preset-tonal
-btn-icon
-shadow-xl
-max-w-md
-p-2
-z-9999
-preset-filled-brand

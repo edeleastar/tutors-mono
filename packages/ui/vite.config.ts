@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [tailwindcss()],
   build: {
     rollupOptions: {
-      input: ['src/styles.css', 'src/safelist.html'],
+      input: 'src/styles.css',
       output: {
         assetFileNames: 'style.css'
       }
