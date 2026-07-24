@@ -1,0 +1,15 @@
+node_modules
+dist
+.svelte-kit
+.env
+.env.*
+!.env.example
+coverage
+*.js.map
+*.d.ts.map
+package-lock.json
+.DS_Store
+.vercel
+.netlify
+build
+temp

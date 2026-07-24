@@ -1,0 +1,19 @@
+{
+  "name": "tutors-mono-test",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "apps/*",
+    "packages/model",
+    "packages/time",
+    "packages/services",
+    "packages/ui",
+    "packages/themes",
+    "services/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/reader",
+    "build": "npm run build --workspace=apps/reader",
+    "check": "npm run check --workspace=apps/reader"
+  }
+}

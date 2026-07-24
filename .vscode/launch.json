@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "request": "launch",
+      "name": "tutors",
+      "type": "node",
+      "program": "${workspaceFolder}/cli/tutors/main.ts",
+      "cwd": "/Users/edeleastar/repos/tutor-sdk/docs/tutors-reference-course",
+      //"cwd": "/Users/edeleastar/repos/tutor-sdk/docs/layout-reference-course",
+      //"cwd": "/Users/edeleastar/repos/hdip/2025/full-stack-1",
+      "env": {},
+      "runtimeExecutable": "deno",
+      "runtimeArgs": ["run", "--inspect-wait", "--allow-all"],
+      "attachSimplePort": 9229
+    },
+    {
+      "request": "launch",
+      "name": "reference",
+      "type": "node",
+      "program": "${workspaceFolder}/packages/gen/test/reference.test.ts",
+      "cwd": "${workspaceFolder}/packages/gen",
+      "env": {},
+      "runtimeExecutable": "deno",
+      "runtimeArgs": ["test", "--inspect-brk", "--allow-all"],
+      "attachSimplePort": 9229
+    }
+  ]
+}
