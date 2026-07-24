@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Lo } from "@tutors/tutors-model-lib";
-  import Icon from "@tutors/ui/components/Icon.svelte";
+  import Icon from "$lib/ui/components/Icon.svelte";
   import { goto } from "$app/navigation";
   import { sanitizeHtml } from "$lib/utils/sanitize";
 

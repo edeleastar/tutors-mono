@@ -2,7 +2,7 @@
   import type { Composite } from "@tutors/tutors-model-lib";
   import Panels from "./Panels.svelte";
   import Cards from "./Cards.svelte";
-  import Image from "@tutors/ui/components/Image.svelte";
+  import Image from "$lib/ui/components/Image.svelte";
 
   interface Props {
     units: Composite[];

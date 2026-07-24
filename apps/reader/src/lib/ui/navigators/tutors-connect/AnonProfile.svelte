@@ -1,9 +1,9 @@
 <script lang="ts">
   import { Avatar } from "@skeletonlabs/skeleton-svelte";
-  import MenuItem from "@tutors/ui/components/MenuItem.svelte";
+  import MenuItem from "$lib/ui/components/MenuItem.svelte";
 
   import { PUBLIC_ANON_MODE } from "$env/static/public";
-  import Menu from "@tutors/ui/components/Menu.svelte";
+  import Menu from "$lib/ui/components/Menu.svelte";
   import { t } from "@tutors/services/i18n";
 
   interface Props {

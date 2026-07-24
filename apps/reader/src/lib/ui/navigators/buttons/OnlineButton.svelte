@@ -1,6 +1,6 @@
 <script lang="ts">
   import { presenceService } from "@tutors/services/community";
-  import Sidebar from "@tutors/ui/components/Sidebar.svelte";
+  import Sidebar from "$lib/ui/components/Sidebar.svelte";
   import StudentCard from "$lib/ui/time/StudentCard.svelte";
   import { t } from "@tutors/services/i18n";
 </script>

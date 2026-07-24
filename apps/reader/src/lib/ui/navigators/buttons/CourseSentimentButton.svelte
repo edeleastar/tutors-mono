@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Popover, Portal } from "@skeletonlabs/skeleton-svelte";
-  import Icon from "@tutors/ui/components/Icon.svelte";
+  import Icon from "$lib/ui/components/Icon.svelte";
   import { tutorsId } from "@tutors/services/runes";
   import { tutorsConnectService, COURSE_SENTIMENT_IDS, type CourseSentimentId } from "@tutors/services/connect";
   import log from "@tutors/services/logger";

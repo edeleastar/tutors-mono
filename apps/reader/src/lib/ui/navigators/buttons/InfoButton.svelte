@@ -1,7 +1,7 @@
 <script lang="ts">
   import { currentCourse } from "@tutors/services/runes";
-  import Icon from "@tutors/ui/components/Icon.svelte";
-  import Sidebar from "@tutors/ui/components/Sidebar.svelte";
+  import Icon from "$lib/ui/components/Icon.svelte";
+  import Sidebar from "$lib/ui/components/Sidebar.svelte";
   import { t } from "@tutors/services/i18n";
   import { sanitizeHtml } from "$lib/utils/sanitize";
 </script>

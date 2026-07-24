@@ -6,7 +6,7 @@
   import { Progress } from "@skeletonlabs/skeleton-svelte";
   import { PDFWorker, getDocument } from "pdfjs-dist";
   import type { Talk } from "@tutors/tutors-model-lib";
-  import Icon from "@tutors/ui/components/Icon.svelte";
+  import Icon from "$lib/ui/components/Icon.svelte";
   import log from "@tutors/services/logger";
 
   pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";

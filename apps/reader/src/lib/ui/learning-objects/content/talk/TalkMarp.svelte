@@ -5,7 +5,7 @@
   import type { Talk } from "@tutors/tutors-model-lib";
   import { renderMarpSlides, buildMarpMarkdown } from "@tutors/services/markdown";
   import { mermaidify } from "@tutors/services/markdown";
-  import Icon from "@tutors/ui/components/Icon.svelte";
+  import Icon from "$lib/ui/components/Icon.svelte";
 
   interface Props {
     lo: Talk;

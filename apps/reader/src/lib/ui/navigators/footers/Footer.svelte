@@ -1,7 +1,7 @@
 <script lang="ts">
   import { currentCourse } from "@tutors/services/runes";
-  import SetuIcon from "@tutors/ui/components/SetuIcon.svelte";
-  import TutorsIcon from "@tutors/ui/components/TutorsIcon.svelte";
+  import SetuIcon from "$lib/ui/components/SetuIcon.svelte";
+  import TutorsIcon from "$lib/ui/components/TutorsIcon.svelte";
   import TutorsMessage from "./TutorsMessage.svelte";
   import TutorsVersion from "./TutorsVersion.svelte";
   import { t } from "@tutors/services/i18n";
