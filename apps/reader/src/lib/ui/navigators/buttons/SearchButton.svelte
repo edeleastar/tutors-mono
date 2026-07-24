@@ -2,7 +2,7 @@
   import { goto } from "$app/navigation";
   import { onMount, onDestroy } from "svelte";
   import { currentCourse } from "@tutors/services/runes";
-  import Icon from "$lib/ui/components/Icon.svelte";
+  import Icon from "@tutors/ui/components/Icon.svelte";
   import { t } from "@tutors/services/i18n";
 
   let isSearching = $state(sessionStorage.getItem("isSearching") === "true");

@@ -1,10 +1,10 @@
 <script lang="ts">
   import { tutorsConnectService } from "@tutors/services/connect";
   import { presenceService } from "@tutors/services/community";
-  import MenuItem from "$lib/ui/components/MenuItem.svelte";
-  import Menu from "$lib/ui/components/Menu.svelte";
+  import MenuItem from "@tutors/ui/components/MenuItem.svelte";
+  import Menu from "@tutors/ui/components/Menu.svelte";
   import OnlineButton from "../buttons/OnlineButton.svelte";
-  import Icon from "$lib/ui/components/Icon.svelte";
+  import Icon from "@tutors/ui/components/Icon.svelte";
   import { currentCourse, tutorsId } from "@tutors/services/runes";
   import { analyticsEnabled } from "@tutors/services/connect";
   import { t } from "@tutors/services/i18n";

@@ -89,6 +89,7 @@
     "@tutors/services": "*",
     "@tutors/tutors-model-lib": "*",
     "@tutors/tutors-time-lib": "*",
+    "@tutors/ui": "*",
     "codemirror": "^6.0.2",
     "dompurify": "^3.4.12",
     "mermaid": "^11.16.0"

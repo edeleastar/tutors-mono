@@ -8,7 +8,7 @@
   import type { PageData } from "./$types";
   import { currentLo } from "@tutors/services/runes";
   import { currentCodeTheme } from "@tutors/services/markdown";
-  import Icon from "$lib/ui/components/Icon.svelte";
+  import Icon from "@tutors/ui/components/Icon.svelte";
   import { t } from "@tutors/services/i18n";
   import { sanitizeHtml } from "$lib/utils/sanitize";
 

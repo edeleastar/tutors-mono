@@ -1,7 +1,7 @@
 <script lang="ts">
   import Breadcrumbs from "./buttons/Breadcrumbs.svelte";
   import EditCoursButton from "./buttons/EditCoursButton.svelte";
-  import IconBar from "../components/IconBar.svelte";
+  import IconBar from "@tutors/ui/components/IconBar.svelte";
   import { currentCourse } from "@tutors/services/runes";
   import { themeService } from "@tutors/services/themes";
   import { t } from "@tutors/services/i18n";

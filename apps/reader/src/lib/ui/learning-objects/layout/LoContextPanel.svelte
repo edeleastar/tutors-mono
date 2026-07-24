@@ -1,7 +1,7 @@
 <script lang="ts">
   import { currentLo } from "@tutors/services/runes";
   import type { Lo } from "@tutors/tutors-model-lib";
-  import Image from "../../components/Image.svelte";
+  import Image from "@tutors/ui/components/Image.svelte";
   import LoContext from "../structure/LoContext.svelte";
   import LoContextTree from "../structure/LoContextTree.svelte";
 
