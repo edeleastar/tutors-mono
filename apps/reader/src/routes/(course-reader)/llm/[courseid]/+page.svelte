@@ -2,7 +2,7 @@
   import { goto } from "$app/navigation";
   import { currentCourse } from "@tutors/services/runes";
   import { convertMdToHtml } from "@tutors/tutors-model-lib";
-  import SecondaryNavigator from "$lib/ui/navigators/SecondaryNavigator.svelte";
+  import SecondaryNavigator from "@tutors/ui/navigators/SecondaryNavigator.svelte";
   import type { PageData } from "./$types";
   import { sanitizeHtml } from "$lib/utils/sanitize";
 

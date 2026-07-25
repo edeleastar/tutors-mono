@@ -4,7 +4,7 @@
   import Units from "../layout/Units.svelte";
   import Cards from "../layout/Cards.svelte";
   import { themeService } from "@tutors/services/themes";
-  import SecondaryNavigator from "$lib/ui/navigators/SecondaryNavigator.svelte";
+  import SecondaryNavigator from "@tutors/ui/navigators/SecondaryNavigator.svelte";
 
   interface Props {
     composite: Composite;

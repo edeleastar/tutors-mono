@@ -1,17 +1,17 @@
 <script lang="ts">
   import { AppBar } from "@skeletonlabs/skeleton-svelte";
-  import CourseTitle from "./titles/CourseTitle.svelte";
-  import SearchButton from "./buttons/SearchButton.svelte";
-  import LayoutMenu from "./LayoutMenu.svelte";
-  import LlmsIndicator from "./buttons/LlmsIndicator.svelte";
-  import TutorsTimeIndicator from "./buttons/TutorsTimeIndicator.svelte";
+  import CourseTitle from "@tutors/ui/navigators/titles/CourseTitle.svelte";
+  import SearchButton from "@tutors/ui/navigators/buttons/SearchButton.svelte";
+  import LayoutMenu from "@tutors/ui/navigators/LayoutMenu.svelte";
+  import LlmsIndicator from "@tutors/ui/navigators/buttons/LlmsIndicator.svelte";
+  import TutorsTimeIndicator from "@tutors/ui/navigators/buttons/TutorsTimeIndicator.svelte";
   import TocButton from "./buttons/TocButton.svelte";
-  import InfoButton from "./buttons/InfoButton.svelte";
-  import AnonProfile from "./tutors-connect/AnonProfile.svelte";
-  import ConnectedProfile from "./tutors-connect/ConnectedProfile.svelte";
-  import TutorsTitle from "./titles/TutorsTitle.svelte";
+  import InfoButton from "@tutors/ui/navigators/buttons/InfoButton.svelte";
+  import AnonProfile from "@tutors/ui/navigators/tutors-connect/AnonProfile.svelte";
+  import ConnectedProfile from "@tutors/ui/navigators/tutors-connect/ConnectedProfile.svelte";
+  import TutorsTitle from "@tutors/ui/navigators/titles/TutorsTitle.svelte";
   import CalendarButton from "./buttons/CalendarButton.svelte";
-  import CourseSentimentButton from "./buttons/CourseSentimentButton.svelte";
+  import CourseSentimentButton from "@tutors/ui/navigators/buttons/CourseSentimentButton.svelte";
   import { currentCourse, tutorsId } from "@tutors/services/runes";
   import { t } from "@tutors/services/i18n";
 </script>

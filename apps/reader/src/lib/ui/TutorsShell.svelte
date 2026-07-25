@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Footer from "$lib/ui/navigators/footers/Footer.svelte";
+  import Footer from "@tutors/ui/navigators/footers/Footer.svelte";
   import { onMount, type Snippet } from "svelte";
   import MainNavigator from "./navigators/MainNavigator.svelte";
   import { animationDelay, hideMainNavigator } from "@tutors/services/runes";
