@@ -23,7 +23,6 @@
   let isLoaded = $state(false);
   onMount(() => {
     isLoaded = true;
-    console.log("Context.svelte onMount - isLoaded:", isLoaded, "loContext:", loContext);
   });
 </script>
 

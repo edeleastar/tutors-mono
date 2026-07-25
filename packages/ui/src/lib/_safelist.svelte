@@ -14,4 +14,6 @@
   <!-- Card dimension classes from cardStyles (reduced by 10%) -->
   <div class="w-[216px] h-[20.7rem] w-[25.2rem] h-[172px] w-[230px] h-[230px]"></div>
   <div class="w-[130px] h-[12.6rem] w-[18rem] h-[115px] w-[173px]"></div>
+  <!-- Grid column classes for responsive layouts -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3"></div>
 </div>

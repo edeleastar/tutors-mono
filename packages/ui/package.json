@@ -14,7 +14,9 @@
     },
     "./components/*": "./src/lib/components/*",
     "./navigators/*": "./src/lib/navigators/*",
-    "./learning-objects/layout/Card.svelte": "./src/lib/learning-objects/layout/Card.svelte",
+    "./learning-objects/layout/*": "./src/lib/learning-objects/layout/*",
+    "./learning-objects/content/*": "./src/lib/learning-objects/content/*",
+    "./learning-objects/structure/*": "./src/lib/learning-objects/structure/*",
     "./time/StudentCard.svelte": "./src/lib/time/StudentCard.svelte",
     "./styles.css": "./dist/style.css"
   },

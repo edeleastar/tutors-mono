@@ -1,5 +1,5 @@
 <script lang="ts">
-  import CourseContext from "$lib/ui/learning-objects/structure/CourseContext.svelte";
+  import CourseContext from "@tutors/ui/learning-objects/structure/CourseContext.svelte";
   import Sidebar from "@tutors/ui/components/Sidebar.svelte";
   import Icon from "@tutors/ui/components/Icon.svelte";
   import { currentCourse } from "@tutors/services/runes";

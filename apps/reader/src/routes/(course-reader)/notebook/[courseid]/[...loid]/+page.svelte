@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PageData } from "./$types";
-  import Context from "$lib/ui/learning-objects/structure/Context.svelte";
-  import Notebook from "$lib/ui/learning-objects/content/notebook/Notebook.svelte";
+  import Context from "@tutors/ui/learning-objects/structure/Context.svelte";
+  import Notebook from "@tutors/ui/learning-objects/content/notebook/Notebook.svelte";
   import { hideMainNavigator } from "@tutors/services/runes";
   import { onDestroy, onMount } from "svelte";
 

@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PageData } from "./$types";
-  import Context from "$lib/ui/learning-objects/structure/Context.svelte";
-  import Note from "$lib/ui/learning-objects/content/Note.svelte";
+  import Context from "@tutors/ui/learning-objects/structure/Context.svelte";
+  import Note from "@tutors/ui/learning-objects/content/Note.svelte";
 
   interface Props {
     data: PageData;

@@ -1,8 +1,8 @@
 <script lang="ts">
   import type { PageData } from "./$types";
-  import Context from "$lib/ui/learning-objects/structure/Context.svelte";
-  import Note from "$lib/ui/learning-objects/content/Note.svelte";
-  import TalkClient from "$lib/ui/learning-objects/content/talk/TalkClient.svelte";
+  import Context from "@tutors/ui/learning-objects/structure/Context.svelte";
+  import Note from "@tutors/ui/learning-objects/content/Note.svelte";
+  import TalkClient from "@tutors/ui/learning-objects/content/talk/TalkClient.svelte";
 
   interface Props {
     data: PageData;
