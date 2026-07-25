@@ -3,7 +3,7 @@
 
   import type { Lo } from "@tutors/tutors-model-lib";
 
-  import Card from "$lib/ui/learning-objects/layout/Card.svelte";
+  import Card from "@tutors/ui/learning-objects/layout/Card.svelte";
   import { scale } from "svelte/transition";
   import { scaleTransition } from "@tutors/ui/navigators/animations";
   import { currentCourse } from "@tutors/services/runes";

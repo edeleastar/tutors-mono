@@ -2,11 +2,11 @@
   import Iconify from "@iconify/svelte";
   import { LoRecord } from "@tutors/services/community";
   import { cardStyles, type CardConfig, type CardDetails } from "@tutors/services/themes";
-  import Icon from "@tutors/ui/components/Icon.svelte";
+  import Icon from "../../components/Icon.svelte";
   import { currentCourse } from "@tutors/services/runes";
   import { themeService } from "@tutors/services/themes";
-  import StudentCard from "$lib/ui/time/StudentCard.svelte";
-  import { sanitizeHtml } from "$lib/utils/sanitize";
+  import StudentCard from "../../time/StudentCard.svelte";
+  import { sanitizeHtml } from "../../utils/sanitize";
 
   let { cardDetails, cardLayout } = $props<{ cardDetails: CardDetails; cardLayout?: CardConfig }>();
 
@@ -53,7 +53,7 @@
   });
 
   const cardShellClass = $derived(
-    `card preset-filled-${themeService.getTypeColour(cardDetails.type)}-100-900 border-[1px] ` +
+    `card preset-filled-${themeService.getTypeColour(cardDetails.type)}-100-900 border-[1px] border-y-8 ` +
       `${styles.container} border-${themeService.getTypeColour(cardDetails.type)}-500 ` +
       `m-2 ${styles.dimensions} transition-all hover:scale-[1.10]`
   );

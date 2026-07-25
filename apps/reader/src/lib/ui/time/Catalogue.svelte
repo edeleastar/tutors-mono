@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { CourseVisit } from "@tutors/services/connect";
-  import Card from "$lib/ui/learning-objects/layout/Card.svelte";
+  import Card from "@tutors/ui/learning-objects/layout/Card.svelte";
 
   interface Props {
     courseRecords: CourseVisit[];

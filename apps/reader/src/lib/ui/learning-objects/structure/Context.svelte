@@ -23,6 +23,7 @@
   let isLoaded = $state(false);
   onMount(() => {
     isLoaded = true;
+    console.log("Context.svelte onMount - isLoaded:", isLoaded, "loContext:", loContext);
   });
 </script>
 
@@ -32,7 +33,7 @@
     {@render children()}
   </div>
   {#if loContext && isLoaded}
-    <div in:fly={slideFromRight.in} out:fly={slideFromRight.out} class="mr-2 hidden h-auto w-72 xl:block">
+    <div in:fly={slideFromRight.in} out:fly={slideFromRight.out} class="mr-2 hidden h-auto w-72 lg:block">
       <div class="sticky top-14 flex flex-col overflow-y-auto">
         <div class="my-auto">
           <LoContextPanel {loContext} />

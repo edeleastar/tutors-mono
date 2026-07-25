@@ -14,6 +14,8 @@
     },
     "./components/*": "./src/lib/components/*",
     "./navigators/*": "./src/lib/navigators/*",
+    "./learning-objects/layout/Card.svelte": "./src/lib/learning-objects/layout/Card.svelte",
+    "./time/StudentCard.svelte": "./src/lib/time/StudentCard.svelte",
     "./styles.css": "./dist/style.css"
   },
   "scripts": {
@@ -22,7 +24,8 @@
   },
   "dependencies": {
     "@tutors/services": "*",
-    "@tutors/tutors-model-lib": "*"
+    "@tutors/tutors-model-lib": "*",
+    "dompurify": "^3.4.12"
   },
   "devDependencies": {
     "@iconify/svelte": "^5.2.1",
@@ -37,7 +40,7 @@
     "vite": "^6.0.0"
   },
   "peerDependencies": {
-    "svelte": "^5.0.0",
-    "@sveltejs/kit": "^2.0.0"
+    "@sveltejs/kit": "^2.0.0",
+    "svelte": "^5.0.0"
   }
 }

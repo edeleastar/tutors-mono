@@ -2,6 +2,7 @@
   import { themeService } from "@tutors/services/themes";
   import Icon from "@iconify/svelte";
   import { Portal, Tooltip } from "@skeletonlabs/skeleton-svelte";
+  import "../_safelist.svelte";
 
   interface Props {
     type?: string;
