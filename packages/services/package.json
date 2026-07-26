@@ -9,15 +9,12 @@
     "./course": "./src/course/index.ts",
     "./community": "./src/community/index.ts",
     "./connect": "./src/connect/index.ts",
-    "./i18n": "./src/i18n/index.ts",
     "./markdown": "./src/markdown/index.ts",
-    "./themes": "./src/themes/index.ts",
     "./a11y": "./src/a11y/index.ts",
-    "./logger": "./src/logger.ts",
-    "./themes/styles/*": "./src/themes/styles/*"
+    "./logger": "./src/logger.ts"
   },
   "dependencies": {
-    "@tutors/tutors-model-lib": "*",
+    "@tutors/tutors-model-lib": "workspace:*",
     "@supabase/supabase-js": "^2.108.0",
     "@auth/sveltekit": "1.11.2",
     "@marp-team/marp-core": "^4.3.1",

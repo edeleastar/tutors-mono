@@ -2,7 +2,7 @@
   import { page } from "$app/state";
   import { currentCourse, currentLabStepIndex, currentLo } from "@tutors/services/runes";
   import Icon from "@tutors/ui/components/Icon.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   let editRoute = $state(currentCourse?.value?.properties.github);
 

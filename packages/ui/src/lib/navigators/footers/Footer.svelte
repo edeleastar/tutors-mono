@@ -4,7 +4,7 @@
   import TutorsIcon from "@tutors/ui/components/TutorsIcon.svelte";
   import TutorsMessage from "./TutorsMessage.svelte";
   import TutorsVersion from "./TutorsVersion.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 </script>
 
 {#if currentCourse?.value?.footer}

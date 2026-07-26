@@ -2,7 +2,7 @@
   import type { Lo } from "@tutors/tutors-model-lib";
   import Icon from "@tutors/ui/components/Icon.svelte";
   import TutorsIcon from "@tutors/ui/components/TutorsIcon.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   let { lo, parentCourse = null } = $props();
 
@@ -44,7 +44,7 @@
           <li class="mb-1 opacity-50" aria-hidden="true">&rsaquo;</li>
         {/if}
         <li class="flex items-center hover:underline min-w-0 flex-shrink-0">
-          <a href={lo.route} class="inline-flex items-center gap-1 text-black dark:text-white">
+          <a href={lo.route} class="inline-flex items-center gap-1" style="color: light-dark(black, white);">
             <Icon type={lo.type} tip={`Go to ${lo.title}`} />
 
             <!-- svelte-ignore a11y_no_static_element_interactions -->

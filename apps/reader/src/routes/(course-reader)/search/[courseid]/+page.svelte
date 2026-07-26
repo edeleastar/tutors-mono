@@ -9,7 +9,7 @@
   import { currentLo } from "@tutors/services/runes";
   import { currentCodeTheme } from "@tutors/services/markdown";
   import Icon from "@tutors/ui/components/Icon.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
   import { sanitizeHtml } from "@tutors/ui/utils/sanitize";
 
   interface Props {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { locale, setLocale, SUPPORTED_LOCALES, type SupportedLocale } from "@tutors/services/i18n";
+  import { locale, setLocale, SUPPORTED_LOCALES, type SupportedLocale } from "@tutors/i18n";
   import { Combobox, Portal } from "@skeletonlabs/skeleton-svelte";
 
   const LOCALE_LABELS: Record<SupportedLocale, string> = {

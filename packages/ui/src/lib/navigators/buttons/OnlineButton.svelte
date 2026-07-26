@@ -2,7 +2,7 @@
   import { presenceService } from "@tutors/services/community";
   import Sidebar from "@tutors/ui/components/Sidebar.svelte";
   import StudentCard from "../../time/StudentCard.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 </script>
 
 {#snippet menuSelector()}

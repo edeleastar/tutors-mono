@@ -3,7 +3,7 @@
   import Panels from "../layout/Panels.svelte";
   import Units from "../layout/Units.svelte";
   import Cards from "../layout/Cards.svelte";
-  import { themeService } from "@tutors/services/themes";
+  import { themeService } from "@tutors/themes";
   import SecondaryNavigator from "@tutors/ui/navigators/SecondaryNavigator.svelte";
 
   interface Props {

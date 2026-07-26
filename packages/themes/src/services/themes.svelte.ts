@@ -11,9 +11,9 @@ import { EasterIcons } from "../icons/easter-icons.ts";
 import { FestiveIcons } from "../icons/festive-icons.ts";
 import { makeItSnow, makeItStopSnowing } from "../events/festive.svelte.ts";
 
-import { rune } from "../../runes.svelte.ts";
+import { rune } from "@tutors/services/runes";
 import type { IconType } from "@tutors/tutors-model-lib";
-import log from "../../logger.ts";
+import log from "@tutors/services/logger";
 
 /**
  * Implementation of the ThemeService interface.
@@ -79,8 +79,10 @@ export const themeService: ThemeService = {
     localStorage.modeCurrent = mode;
     if (mode === "dark") {
       document.documentElement.classList.add("dark");
+      document.documentElement.style.colorScheme = "dark";
     } else {
       document.documentElement.classList.remove("dark");
+      document.documentElement.style.colorScheme = "light";
     }
   },
 

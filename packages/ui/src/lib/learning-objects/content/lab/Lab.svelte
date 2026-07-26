@@ -62,8 +62,8 @@
   <div class="max-w-l flex">
     <div class="mr-2 hidden h-auto w-72 lg:block">
       <div
-        class="card bg-surface-100 border-primary-100 dark:border-primary-500 dark:bg-surface-950 sticky top-14 m-2 h-auto rounded-xl border-[1px]
-          py-4"
+        class="card sticky top-14 m-2 h-auto rounded-xl border-[1px] py-4"
+        style="background-color: light-dark(var(--color-surface-100), var(--color-surface-950)); border-color: light-dark(var(--color-primary-100), var(--color-primary-500));"
       >
         <nav class="nav-list">
           <ul>
@@ -83,7 +83,7 @@
     </div>
   </div>
 
-  <div class="bg-primary-50 dark:bg-primary-900 fixed bottom-0 left-0 z-50 block w-full rounded-sm border lg:hidden">
+  <div class="fixed bottom-0 left-0 z-50 block w-full rounded-sm border lg:hidden" style="background-color: light-dark(var(--color-primary-50), var(--color-primary-900));">
     <nav class="flex flex-wrap justify-between p-2">
       {@html sanitizeHtml(lab.horizontalNavbarHtml ?? "")}
     </nav>

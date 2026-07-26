@@ -12,7 +12,7 @@
 
 <div class="w-full">
   {#each units as unit}
-    <div class="border-primary-500 bg-surface-100 dark:bg-surface-900 mb-2 w-full overflow-hidden rounded-xl border-[1px] p-4">
+    <div class="mb-2 w-full overflow-hidden rounded-xl border-[1px] p-4" style="background-color: light-dark(var(--color-surface-100), var(--color-surface-900)); border-color: var(--color-primary-500);">
       <div class="flex w-full justify-between pb-2">
         <h2 id={unit.id} class="p-2 text-xl font-semibold">
           {unit.title}

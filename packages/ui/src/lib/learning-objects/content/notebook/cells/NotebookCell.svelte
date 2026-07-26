@@ -36,10 +36,10 @@
 
 <div
   id="notebook-cell-{index}"
-  class="notebook-cell mb-2 rounded-lg border transition-colors
-    {isActive
-      ? 'border-primary-300 dark:border-primary-600'
-      : 'border-surface-200 dark:border-surface-700'}"
+  class="notebook-cell mb-2 rounded-lg border transition-colors"
+  style="border-color: {isActive
+    ? 'light-dark(var(--color-primary-300), var(--color-primary-600))'
+    : 'light-dark(var(--color-surface-200), var(--color-surface-700))'};"
   role="button"
   tabindex="-1"
   onclick={onClick}

@@ -3,29 +3,31 @@
   import EditCoursButton from "./buttons/EditCoursButton.svelte";
   import IconBar from "@tutors/ui/components/IconBar.svelte";
   import { currentCourse } from "@tutors/services/runes";
-  import { themeService } from "@tutors/services/themes";
-  import { t } from "@tutors/services/i18n";
+  import { themeService } from "@tutors/themes";
+  import { t } from "@tutors/i18n";
 
   let { lo, parentCourse = null } = $props();
-  const themeClasses = $derived({
-    firstDiv: themeService.currentTheme.value === "classic" ? "dark:bg-tertiary-900" : "dark:bg-primary-900",
-    otherDiv: "dark:bg-primary-800"
-  });
+  const isClassic = $derived(themeService.currentTheme.value === "classic");
 </script>
 
-<div role="navigation" aria-label={t("a11y.secondaryNavigation")} class="border-primary-100 bg-primary-50 dark:border-primary-800 z-5 mb-2 {themeClasses.firstDiv} sticky top-0 flex h-12 border-b-[1px]">
+<div
+  role="navigation"
+  aria-label={t("a11y.secondaryNavigation")}
+  class="z-5 mb-2 sticky top-0 flex h-12 border-b-[1px]"
+  style="background-color: light-dark(var(--color-primary-50), {isClassic ? 'var(--color-tertiary-900)' : 'var(--color-primary-900)'}); border-color: light-dark(var(--color-primary-100), var(--color-primary-800));"
+>
   <Breadcrumbs {lo} {parentCourse} />
   {#if currentCourse?.value}
     <div class="flex flex-auto"></div>
     {#if currentCourse?.value?.properties.github}
-      <div class="bg-primary-200 {themeClasses.otherDiv} bg-opacity-80 my-2 mr-2 hidden rounded-lg lg:flex lg:flex-none">
+      <div class="my-2 mr-2 hidden rounded-lg lg:flex lg:flex-none" style="background-color: light-dark(var(--color-primary-200), var(--color-primary-800)); opacity: 0.8;">
         <EditCoursButton />
       </div>
     {/if}
-    <div class="bg-primary-200 {themeClasses.otherDiv} bg-opacity-80 my-2 hidden rounded-lg lg:flex lg:flex-none">
+    <div class="my-2 hidden rounded-lg lg:flex lg:flex-none" style="background-color: light-dark(var(--color-primary-200), var(--color-primary-800)); opacity: 0.8;">
       <IconBar nav={currentCourse?.value?.companions} />
     </div>
-    <div class="bg-primary-200 {themeClasses.otherDiv} bg-opacity-80 my-2 mr-10 ml-2 flex hidden rounded-lg sm:flex lg:flex">
+    <div class="my-2 mr-10 ml-2 flex hidden rounded-lg sm:flex lg:flex" style="background-color: light-dark(var(--color-primary-200), var(--color-primary-800)); opacity: 0.8;">
       <IconBar nav={currentCourse?.value?.wallBar} />
     </div>
   {/if}

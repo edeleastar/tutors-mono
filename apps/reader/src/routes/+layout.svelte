@@ -3,8 +3,8 @@
   import { tutorsConnectService } from "@tutors/services/connect";
   import type { PageData } from "./$types";
   import { browser } from "$app/environment";
-  import { themeService } from "@tutors/services/themes";
-  import { locale, SUPPORTED_LOCALES } from "@tutors/services/i18n";
+  import { themeService } from "@tutors/themes";
+  import { locale, SUPPORTED_LOCALES } from "@tutors/i18n";
 
   interface Props {
     data: PageData;

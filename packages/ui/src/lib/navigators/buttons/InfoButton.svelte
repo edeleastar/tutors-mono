@@ -2,12 +2,12 @@
   import { currentCourse } from "@tutors/services/runes";
   import Icon from "@tutors/ui/components/Icon.svelte";
   import Sidebar from "@tutors/ui/components/Sidebar.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
   import { sanitizeHtml } from "../../utils/sanitize";
 </script>
 
 {#snippet menuSelector()}
-  <div class="hover:preset-tonal-secondary dark:hover:preset-tonal-tertiary rounded-lg p-2">
+  <div class="hover:preset-tonal-secondary rounded-lg p-2">
     <Icon type="info" tip={t("nav.info.tip")} height="25" />
   </div>
 {/snippet}

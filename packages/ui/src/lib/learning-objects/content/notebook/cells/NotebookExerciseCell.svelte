@@ -10,8 +10,8 @@
 </script>
 
 <div class="exercise-cell">
-  <div class="flex items-center gap-2 px-4 py-1.5 bg-primary-50 dark:bg-primary-950 border-b border-surface-200 dark:border-surface-700">
-    <span class="text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400">Exercise</span>
+  <div class="flex items-center gap-2 px-4 py-1.5 border-b" style="background-color: light-dark(var(--color-primary-50), var(--color-primary-950)); border-color: light-dark(var(--color-surface-200), var(--color-surface-700));">
+    <span class="text-xs font-semibold uppercase tracking-wide" style="color: light-dark(var(--color-primary-600), var(--color-primary-400));">Exercise</span>
   </div>
   <div class="flex">
     <div class="flex-shrink-0 w-14 pt-3 text-right pr-2 font-mono text-xs text-surface-400 select-none">

@@ -1,4 +1,4 @@
-import { rune } from "../runes.svelte.ts";
+import { rune } from "@tutors/services/runes";
 import en, { type MessageKey } from "./messages/en.ts";
 import fr from "./messages/fr.ts";
 import de from "./messages/de.ts";

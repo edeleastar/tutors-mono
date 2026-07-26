@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
   const version = APP_VERSION;
 </script>
 

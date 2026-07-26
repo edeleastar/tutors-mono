@@ -1,7 +1,7 @@
 <script lang="ts">
   import { currentCourse, currentLo } from "@tutors/services/runes";
   import Image from "@tutors/ui/components/Image.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 </script>
 
 {#if currentLo?.value}

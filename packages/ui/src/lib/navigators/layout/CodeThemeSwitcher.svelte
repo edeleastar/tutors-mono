@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { themeService } from "@tutors/services/themes";
+  import { themeService } from "@tutors/themes";
   import { courseService } from "@tutors/services/course";
   import { currentCodeTheme, markdownService } from "@tutors/services/markdown";
   import { Combobox, Portal } from "@skeletonlabs/skeleton-svelte";

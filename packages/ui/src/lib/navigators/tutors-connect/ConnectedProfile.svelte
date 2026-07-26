@@ -7,7 +7,7 @@
   import Icon from "@tutors/ui/components/Icon.svelte";
   import { currentCourse, tutorsId } from "@tutors/services/runes";
   import { analyticsEnabled } from "@tutors/services/connect";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   function logout() {
     tutorsConnectService.disconnect("/");

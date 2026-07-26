@@ -4,7 +4,7 @@
 
   import { PUBLIC_ANON_MODE } from "$env/static/public";
   import Menu from "@tutors/ui/components/Menu.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   interface Props {
     redirect?: string;

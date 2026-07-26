@@ -1,9 +1,9 @@
 <script lang="ts">
   import Iconify from "@iconify/svelte";
   import type { LoEvent } from "@tutors/services/community";
-  import { cardStyles, type CardConfig } from "@tutors/services/themes";
+  import { cardStyles, type CardConfig } from "@tutors/themes";
   import Icon from "@tutors/ui/components/Icon.svelte";
-  import { themeService } from "@tutors/services/themes";
+  import { themeService } from "@tutors/themes";
 
   let {
     lo,
@@ -46,7 +46,7 @@
 
 <div class={cardShellClass}>
   <div class="flex h-full w-full flex-col">
-    <div class="relative flex w-full shrink-0 items-center justify-center border-surface-300 border-b px-3 py-3 dark:border-surface-600">
+    <div class="relative flex w-full shrink-0 items-center justify-center border-b px-3 py-3" style="border-color: light-dark(var(--color-surface-300), var(--color-surface-600));">
       <span class="absolute top-1/2 left-3 z-10 -translate-y-1/2">
         <Icon type={sentiment} tip={`Sentiment — ${sentiment}.`} height="28" />
       </span>

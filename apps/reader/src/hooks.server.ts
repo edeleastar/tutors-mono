@@ -3,7 +3,7 @@ import { sequence } from "@sveltejs/kit/hooks";
 import { SvelteKitAuth } from "@auth/sveltekit";
 import { PRIVATE_AUTH_GITHUB_SECRET, PRIVATE_AUTH_GITHUB_ID, PRIVATE_AUTH_SECRET } from "$env/static/private";
 import GithubProvider from "@auth/core/providers/github";
-import { initLocaleFromCookie } from "@tutors/services/i18n";
+import { initLocaleFromCookie } from "@tutors/i18n";
 
 const { handle: authInitHandle } = SvelteKitAuth({
   basePath: "/auth",

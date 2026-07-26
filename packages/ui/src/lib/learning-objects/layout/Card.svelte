@@ -1,10 +1,10 @@
 <script lang="ts">
   import Iconify from "@iconify/svelte";
   import { LoRecord } from "@tutors/services/community";
-  import { cardStyles, type CardConfig, type CardDetails } from "@tutors/services/themes";
+  import { cardStyles, type CardConfig, type CardDetails } from "@tutors/themes";
   import Icon from "../../components/Icon.svelte";
   import { currentCourse } from "@tutors/services/runes";
-  import { themeService } from "@tutors/services/themes";
+  import { themeService } from "@tutors/themes";
   import StudentCard from "../../time/StudentCard.svelte";
   import { sanitizeHtml } from "../../utils/sanitize";
 

@@ -2,7 +2,7 @@
   import { tutorsConnectService, type CourseVisit } from "@tutors/services/connect";
   import { onMount } from "svelte";
   import CourseVisitCard from "./CourseVisitCard.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   let courseVisits: CourseVisit[] = $state([]);
   onMount(async () => {

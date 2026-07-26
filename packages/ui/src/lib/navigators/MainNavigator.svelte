@@ -13,7 +13,7 @@
   import CalendarButton from "@tutors/ui/navigators/buttons/CalendarButton.svelte";
   import CourseSentimentButton from "@tutors/ui/navigators/buttons/CourseSentimentButton.svelte";
   import { currentCourse, tutorsId } from "@tutors/services/runes";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 </script>
 
 <nav aria-label={t("a11y.mainNavigation")}>
@@ -60,7 +60,7 @@
       <div class="flex items-center">
         <LayoutMenu />
       </div>
-      <span class="mx-2 h-10 w-[1px] bg-gray-400 dark:bg-gray-200"></span>
+      <span class="mx-2 h-10 w-[1px]" style="background-color: light-dark(rgb(156, 163, 175), rgb(229, 231, 235));"></span>
       {#if !currentCourse?.value?.isPrivate}
         <div class="relative">
           {#if !tutorsId.value?.login}

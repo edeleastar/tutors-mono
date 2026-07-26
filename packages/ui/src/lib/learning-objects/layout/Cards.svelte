@@ -48,7 +48,7 @@
 </script>
 
 {#if los.length > 0 && isLoaded}
-  <div transition:scale|local={scaleTransition} class="bg-surface-100 dark:bg-surface-900 mx-auto mb-2 place-items-center overflow-hidden rounded-xl p-4">
+  <div transition:scale|local={scaleTransition} class="mx-auto mb-2 place-items-center overflow-hidden rounded-xl p-4" style="background-color: light-dark(var(--color-surface-100), var(--color-surface-900));">
     <div class="mx-auto flex flex-wrap justify-center">
       {#key refresh}
         {#each los as lo}

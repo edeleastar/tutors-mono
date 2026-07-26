@@ -3,11 +3,11 @@
   import Sidebar from "@tutors/ui/components/Sidebar.svelte";
   import Icon from "@tutors/ui/components/Icon.svelte";
   import { currentCourse } from "@tutors/services/runes";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 </script>
 
 {#snippet menuSelector()}
-  <div class="hover:preset-tonal-secondary dark:hover:preset-tonal-tertiary rounded-lg p-2">
+  <div class="hover:preset-tonal-secondary rounded-lg p-2">
     <Icon type="coursetree" tip={t("nav.toc.tip")} height="40" />
   </div>
 {/snippet}

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 </script>
 
 <h1 class="my-4 inline-block text-4xl! font-bold">

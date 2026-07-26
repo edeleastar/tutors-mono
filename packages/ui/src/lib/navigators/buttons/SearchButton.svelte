@@ -3,7 +3,7 @@
   import { onMount, onDestroy } from "svelte";
   import { currentCourse } from "@tutors/services/runes";
   import Icon from "@tutors/ui/components/Icon.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   let isSearching = $state(sessionStorage.getItem("isSearching") === "true");
   let previousPage = "";
@@ -55,7 +55,7 @@
 </script>
 
 <button onclick={toggleSearch}>
-  <div class="hover:preset-tonal-secondary dark:hover:preset-tonal-tertiary flex items-center gap-2 rounded-lg p-3 text-sm font-bold">
+  <div class="hover:preset-tonal-secondary flex items-center gap-2 rounded-lg p-3 text-sm font-bold">
     <Icon type="search" tip={t("nav.search.tip")} />
     <span class="hidden lg:block"> {isSearching ? t("nav.search.exit") : t("nav.search")}</span>
   </div>

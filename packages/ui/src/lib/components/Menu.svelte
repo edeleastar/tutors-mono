@@ -7,9 +7,9 @@
   <Popover.Trigger>{@render menuSelector()}</Popover.Trigger>
   <Portal>
     <Popover.Positioner>
-      <Popover.Content class="card  bg-surface-50 z-999 m-4 max-w-[500px] space-y-4">
+      <Popover.Content class="card z-999 m-4 max-w-[500px] space-y-4" style="background-color: light-dark(var(--color-surface-50), var(--color-surface-900));">
         <Popover.Description>
-          <nav class="card-body list-nav card w-56 w-full space-y-2 bg-gray-100 p-2 shadow-lg dark:bg-gray-800">
+          <nav class="card-body list-nav card w-56 w-full space-y-2 p-2 shadow-lg" style="background-color: light-dark(rgb(243, 244, 246), rgb(31, 41, 55));">
             {@render menuContent()}
           </nav>
         </Popover.Description>

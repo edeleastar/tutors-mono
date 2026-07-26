@@ -1,6 +1,6 @@
 <script lang="ts">
   import Icon from "@tutors/ui/components/Icon.svelte";
-  import { themeService } from "@tutors/services/themes";
+  import { themeService } from "@tutors/themes";
   import { SegmentedControl } from "@skeletonlabs/skeleton-svelte";
 </script>
 

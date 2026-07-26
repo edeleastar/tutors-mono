@@ -2,7 +2,7 @@
   import { scaleTransition } from "@tutors/ui/navigators/animations";
   import Iconify from "@iconify/svelte";
   import { scale } from "svelte/transition";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   let { courseVisit, deleteCourse, starUnstarCourse } = $props();
 </script>

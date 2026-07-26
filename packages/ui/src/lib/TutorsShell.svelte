@@ -6,7 +6,7 @@
   import { cubicIn, cubicOut } from "svelte/easing";
   import { fly, slide } from "svelte/transition";
   import { prefersReducedMotion } from "@tutors/services/a11y";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   type Props = { children: Snippet };
   let { children }: Props = $props();
@@ -21,7 +21,7 @@
   <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:z-50 focus:p-4 focus:bg-primary-500 focus:text-white">
     {t("a11y.skipToContent")}
   </a>
-  <header class="bg-surface-100 dark:bg-surface-950 sticky top-0 z-10">
+  <header class="sticky top-0 z-10" style="background-color: light-dark(var(--color-surface-100), var(--color-surface-950));">
     {#if !hideMainNavigator.value}
       <div
         class="w-full"

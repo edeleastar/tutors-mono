@@ -7,11 +7,11 @@
   import ThemeSwitcher from "./layout/ThemeSwitcher.svelte";
   import CodeThemeSwitcher from "./layout/CodeThemeSwitcher.svelte";
   import LayoutSwitcher from "./layout/LayoutSwitcher.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 </script>
 
 {#snippet menuSelector()}
-  <div class="hover:preset-tonal-secondary dark:hover:preset-tonal-tertiary flex items-center rounded-lg p-4">
+  <div class="flex items-center rounded-lg p-4 hover:preset-tonal-secondary">
     <Icon type="lightMode" tip={t("nav.layout.tip")} />
     <span class="ml-2 hidden text-sm font-bold md:block">{t("nav.layout")}</span>
   </div>

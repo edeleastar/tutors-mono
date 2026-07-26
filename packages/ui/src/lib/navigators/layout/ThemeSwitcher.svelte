@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { themeService } from "@tutors/services/themes";
+  import { themeService } from "@tutors/themes";
   import { Combobox, Portal } from "@skeletonlabs/skeleton-svelte";
 
   let theme = $state([themeService.currentTheme.value]);

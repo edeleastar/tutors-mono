@@ -1,6 +1,6 @@
 <script lang="ts">
   import Icon from "@tutors/ui/components/Icon.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 </script>
 
 <div class="my-4 flex flex-col items-center justify-center gap-4 md:flex-row">

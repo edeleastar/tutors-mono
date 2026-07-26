@@ -1,21 +1,21 @@
 {
-  "name": "@tutors/themes",
+  "name": "@tutors/i18n",
   "version": "0.0.1",
-  "description": "Theme service, styles, and icon mappings for Tutors",
+  "description": "Internationalization service and translations for Tutors",
   "private": true,
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
-    "./styles/*": "./src/styles/*",
-    "./icons/*": "./src/icons/*",
-    "./events/*": "./src/events/*"
+    "./messages/*": "./src/messages/*"
   },
   "dependencies": {
-    "@tutors/tutors-model-lib": "workspace:*",
     "@tutors/services": "workspace:*"
   },
   "devDependencies": {
     "svelte": "^5.0.0",
     "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "svelte": "^5.0.0"
   }
 }

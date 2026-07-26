@@ -7,11 +7,11 @@
 @import "@skeletonlabs/skeleton/themes/cerberus";
 @import "@skeletonlabs/skeleton/themes/terminus";
 @import "@skeletonlabs/skeleton/themes/rose";
-@import "@tutors/services/themes/styles/tutors.css";
-@import "@tutors/services/themes/styles/classic.css";
-@import "@tutors/services/themes/styles/dyslexia.css";
-@import "@tutors/services/themes/styles/easter.css";
-@import "@tutors/services/themes/styles/prose-headings.css";
+@import "@tutors/themes/styles/tutors.css";
+@import "@tutors/themes/styles/classic.css";
+@import "@tutors/themes/styles/dyslexia.css";
+@import "@tutors/themes/styles/easter.css";
+@import "@tutors/themes/styles/prose-headings.css";
 @import "@tutors/ui/styles.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
