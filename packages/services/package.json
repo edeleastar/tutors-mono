@@ -8,13 +8,14 @@
     "./runes": "./src/runes.svelte.ts",
     "./course": "./src/course/index.ts",
     "./community": "./src/community/index.ts",
-    "./connect": "./src/connect/index.ts",
+    "./community/utils/supabase-client": "./src/community/utils/supabase-client.ts",
     "./markdown": "./src/markdown/index.ts",
     "./a11y": "./src/a11y/index.ts",
     "./logger": "./src/logger.ts"
   },
   "dependencies": {
     "@tutors/tutors-model-lib": "workspace:*",
+    "@tutors/types": "workspace:*",
     "@supabase/supabase-js": "^2.108.0",
     "@auth/sveltekit": "1.11.2",
     "@marp-team/marp-core": "^4.3.1",

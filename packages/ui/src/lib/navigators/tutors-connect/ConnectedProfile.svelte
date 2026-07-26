@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { tutorsConnectService } from "@tutors/services/connect";
+  import { tutorsConnectService } from "@tutors/connect";
   import { presenceService } from "@tutors/services/community";
   import MenuItem from "@tutors/ui/components/MenuItem.svelte";
   import Menu from "@tutors/ui/components/Menu.svelte";
   import OnlineButton from "../buttons/OnlineButton.svelte";
   import Icon from "@tutors/ui/components/Icon.svelte";
   import { currentCourse, tutorsId } from "@tutors/services/runes";
-  import { analyticsEnabled } from "@tutors/services/connect";
+  import { analyticsEnabled } from "@tutors/connect";
   import { t } from "@tutors/i18n";
 
   function logout() {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { tutorsConnectService, type CourseVisit } from "@tutors/services/connect";
+  import { tutorsConnectService, type CourseVisit } from "@tutors/connect";
   import { onMount } from "svelte";
   import CourseVisitCard from "./CourseVisitCard.svelte";
   import { t } from "@tutors/i18n";

@@ -4,7 +4,7 @@
  * Handles learning events, page loads, and duration tracking.
  */
 
-import type { TutorsId } from "../../connect/index.ts";
+import type { TutorsId } from "@tutors/types";
 import type { Course, Lo } from "@tutors/tutors-model-lib";
 import { storeStudentCourseLearningObjectInSupabase, updateLearningRecordsDuration, updateCalendarDuration, addOrUpdateStudent, formatDate } from "../utils/supabase-client.ts";
 import type { AnalyticsService } from "../types.svelte.ts";

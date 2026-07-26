@@ -1,4 +1,4 @@
-import type { TutorsId } from "../connect/index.ts";
+import type { TutorsId } from "@tutors/types";
 import type { Course, IconType, Lo } from "@tutors/tutors-model-lib";
 import PartySocket from "partysocket";
 /**

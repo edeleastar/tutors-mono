@@ -1,7 +1,7 @@
 <script lang="ts">
   import CourseShell from "@tutors/ui/TutorsShell.svelte";
   import type { Snippet } from "svelte";
-  import { tutorsConnectService } from "@tutors/services/connect";
+  import { tutorsConnectService } from "@tutors/connect";
   import { page } from "$app/state";
   import { currentCourse } from "@tutors/services/runes";
   import { afterNavigate } from "$app/navigation";

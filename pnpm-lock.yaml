@@ -124,6 +124,9 @@ importers:
       '@marp-team/marp-core':
         specifier: ^4.3.1
         version: 4.4.0
+      '@tutors/connect':
+        specifier: workspace:*
+        version: link:../../packages/connect
       '@tutors/i18n':
         specifier: workspace:*
         version: link:../../packages/i18n
@@ -312,6 +315,24 @@ importers:
         specifier: ^3.2.7
         version: 3.2.7(@types/node@25.9.5)(@vitest/browser@3.2.7)(@vitest/ui@3.2.7)(happy-dom@15.11.7)(jiti@2.7.0)(lightningcss@1.33.0)(msw@2.15.0(@types/node@25.9.5)(typescript@6.0.3))(supports-color@7.2.0)(yaml@2.9.0)
 
+  packages/connect:
+    dependencies:
+      '@auth/sveltekit':
+        specifier: 1.11.2
+        version: 1.11.2(@sveltejs/kit@2.70.1(@sveltejs/vite-plugin-svelte@7.2.0(svelte@5.56.8(@typescript-eslint/types@8.65.0))(vite@8.1.5(@types/node@25.9.5)(jiti@2.7.0)(yaml@2.9.0)))(svelte@5.56.8(@typescript-eslint/types@8.65.0))(typescript@6.0.3)(vite@8.1.5(@types/node@25.9.5)(jiti@2.7.0)(yaml@2.9.0)))(svelte@5.56.8(@typescript-eslint/types@8.65.0))
+      '@tutors/services':
+        specifier: workspace:*
+        version: link:../services
+      '@tutors/tutors-model-lib':
+        specifier: workspace:*
+        version: link:../model
+      '@tutors/types':
+        specifier: workspace:*
+        version: link:../types
+      svelte:
+        specifier: ^5.0.0
+        version: 5.56.8(@typescript-eslint/types@8.65.0)
+
   packages/i18n:
     dependencies:
       '@tutors/services':
@@ -384,6 +405,9 @@ importers:
       '@tutors/tutors-model-lib':
         specifier: workspace:*
         version: link:../model
+      '@tutors/types':
+        specifier: workspace:*
+        version: link:../types
       loglevel:
         specifier: ^1.9.2
         version: 1.9.2
@@ -422,6 +446,8 @@ importers:
         specifier: ^2.96.0
         version: 2.110.8
 
+  packages/types: {}
+
   packages/ui:
     dependencies:
       '@codemirror/autocomplete':
@@ -448,6 +474,9 @@ importers:
       '@sveltejs/kit':
         specifier: ^2.0.0
         version: 2.70.1(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.8(@typescript-eslint/types@8.65.0))(vite@6.4.3(@types/node@25.9.5)(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.0)))(svelte@5.56.8(@typescript-eslint/types@8.65.0))(typescript@5.9.3)(vite@6.4.3(@types/node@25.9.5)(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.0))
+      '@tutors/connect':
+        specifier: workspace:*
+        version: link:../connect
       '@tutors/i18n':
         specifier: workspace:*
         version: link:../i18n

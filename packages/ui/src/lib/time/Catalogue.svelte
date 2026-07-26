@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { CourseVisit } from "@tutors/services/connect";
+  import type { CourseVisit } from "@tutors/connect";
   import Card from "@tutors/ui/learning-objects/layout/Card.svelte";
 
   interface Props {

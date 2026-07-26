@@ -5,9 +5,9 @@
  * Requires authenticated user context from tutorsConnectService
  */
 
-import { supabase } from "../../community/index.ts";
-import { tutorsId } from "../../runes.svelte.ts";
-import log from "../../logger.ts";
+import { supabase } from "@tutors/services/community";
+import { tutorsId } from "@tutors/services/runes";
+import log from "@tutors/services/logger";
 
 import type { Course, IconType } from "@tutors/tutors-model-lib";
 import type { CourseVisit, ProfileStore } from "../types.ts";

@@ -1,7 +1,13 @@
 import type { Course, IconType } from "@tutors/tutors-model-lib";
+import type { TutorsId as TutorsIdType, CourseSentimentId as CourseSentimentIdType } from "@tutors/types";
+import { COURSE_SENTIMENT_IDS as SENTIMENT_IDS } from "@tutors/types";
 
-export const COURSE_SENTIMENT_IDS = ["neutral", "fine", "delighted", "confident", "overwhelmed", "confused", "drained"] as const;
-export type CourseSentimentId = (typeof COURSE_SENTIMENT_IDS)[number];
+/**
+ * Re-exports from @tutors/types for backward compatibility
+ */
+export type { TutorsIdType as TutorsId };
+export type { CourseSentimentIdType as CourseSentimentId };
+export { SENTIMENT_IDS as COURSE_SENTIMENT_IDS };
 
 /**
  * Record of a user's interaction with a course
@@ -35,18 +41,6 @@ export interface ProfileStore {
 }
 
 /**
- * User identity information from authentication provider
- */
-export type TutorsId = {
-  name: string;
-  login: string;
-  email: string;
-  image: string;
-  share: string;
-  sentiment: string;
-};
-
-/**
  * Service for managing user authentication and course access
  */
 export interface TutorsConnectService {
@@ -55,7 +49,7 @@ export interface TutorsConnectService {
   anonMode: boolean;
 
   connect(redirectStr: string): void;
-  reconnect(user: TutorsId): void;
+  reconnect(user: TutorsIdType): void;
   disconnect(redirectStr: string): void;
   toggleShare(): void;
   /** Persists sentiment locally and, when signed in, in tutors-connect-users. */
