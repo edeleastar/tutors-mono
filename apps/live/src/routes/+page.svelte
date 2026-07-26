@@ -8,8 +8,7 @@
   liveService.startGlobalPresenceService();
 </script>
 
-<div class="bg-surface-100-800-token border-surface-200-700-token rounded-xl border-[1px] p-4">
-  <h2 class="mb-4 text-xl font-semibold">Live Activity</h2>
+<div class="p-4">
   <Tabs defaultValue="Courses">
     <Tabs.List>
       <Tabs.Trigger value="Courses">Courses ({liveService.coursesOnline.value.length})</Tabs.Trigger>

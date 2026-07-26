@@ -9,6 +9,8 @@ const config = {
 
   onwarn(warning, defaultHandler) {
     // Ignore state_referenced_locally warning globally
+    // These are Svelte 5 best practice warnings about reactivity
+    // The code works correctly but could be improved by using $derived/$effect
     if (warning.code === "state_referenced_locally") return;
     defaultHandler(warning);
   },

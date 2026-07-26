@@ -1,11 +1,11 @@
 {
-  "name": "tutors-live",
+  "name": "tutors-catalogue",
   "version": "1.0.0",
-  "description": "Tutors Live - Real-time student activity tracking",
+  "description": "Tutors Catalogue - Browse all Tutors courses",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev --port 5174",
+    "dev": "vite dev --port 5175",
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"

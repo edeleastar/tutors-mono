@@ -29,7 +29,7 @@
     class="hover:preset-tonal-secondary dark:hover:preset-tonal-tertiary inline-flex items-center rounded-lg p-2"
     aria-label={`${t("content.sentimentLabel")}: ${selected}. ${t("content.sentimentOpen")}`}
   >
-    <Icon type={selected} tip={`${t("content.sentiment")} — ${selected}.`} height="28" />
+    <Icon type={selected} height="28" />
   </Popover.Trigger>
   <Portal>
     <Popover.Positioner>
@@ -43,7 +43,7 @@
                 class="hover:preset-tonal-secondary dark:hover:preset-tonal-tertiary flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left"
                 onclick={() => pick(id)}
               >
-                <span class="shrink-0"><Icon type={id} height="26" tip={id} /></span>
+                <span class="shrink-0"><Icon type={id} height="26" /></span>
                 <span class="min-w-0 flex-1 text-sm font-medium">{id}</span>
                 {#if selected === id}
                   <span class="text-success-500 shrink-0 text-lg leading-none" aria-hidden="true">✓</span>

@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-  <title>Tutors Live</title>
+  <title>Tutors Catalogue</title>
 </svelte:head>
 
 <TutorsShell>

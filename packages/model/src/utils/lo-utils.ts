@@ -1,4 +1,3 @@
-import { Tutorial } from "@tutors/tutors-model-lib";
 import {
   type Archive,
   type Composite,
@@ -11,9 +10,10 @@ import {
   type Panels,
   type PanelTalk,
   type PanelVideo,
-  Podcast,
+  type Podcast,
   type Side,
   type Talk,
+  type Tutorial,
   type Unit,
   type Units,
   type VideoIdentifier,

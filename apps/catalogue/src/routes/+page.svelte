@@ -16,11 +16,10 @@
   });
 </script>
 
-<div class="bg-surface-100-800-token border-surface-200-700-token rounded-xl border-[1px] p-4">
-  <div class="mb-4 flex items-center justify-between">
-    <h2 class="text-xl font-semibold">Course Catalogue</h2>
-    <div class="bg-gray-100 p-2 text-xs dark:bg-gray-800 rounded">
-      Totals: modules-{totalModules} : students-{totalStudents}
+<div class="w-full p-4">
+  <div class="flex justify-end gap-2">
+    <div class="bg-gray-100 p-1 text-right text-xs dark:bg-gray-800">
+      Totals: modules-{totalModules}:students-{totalStudents}
     </div>
   </div>
   <Catalogue courseRecords={data.courseRecords} />

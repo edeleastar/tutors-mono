@@ -5,7 +5,7 @@
 </script>
 
 <div class="mb-2 flex justify-center">
-  <SegmentedControl defaultValue={themeService.lightMode.value} onValueChange={(e) => themeService.setDisplayMode(e.value!)}>
+  <SegmentedControl value={themeService.lightMode.value} onValueChange={(e) => themeService.setDisplayMode(e.value!)}>
     <SegmentedControl.Control>
       <SegmentedControl.Indicator />
       <SegmentedControl.Item value="dark">
