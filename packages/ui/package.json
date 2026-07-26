@@ -19,6 +19,7 @@
     "./learning-objects/structure/*": "./src/lib/learning-objects/structure/*",
     "./time/*": "./src/lib/time/*",
     "./utils/sanitize": "./src/lib/utils/sanitize.ts",
+    "./TutorsShell.svelte": "./src/lib/TutorsShell.svelte",
     "./styles.css": "./dist/style.css"
   },
   "scripts": {
