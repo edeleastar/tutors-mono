@@ -1,20 +1,20 @@
 {
-  "name": "@tutors/connect",
+  "name": "@tutors/community",
   "version": "0.0.1",
-  "description": "Authentication and user connection service for Tutors",
+  "description": "Community features: analytics, presence, live tracking, and catalogue for Tutors",
   "private": true,
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
     "./services/*": "./src/services/*",
-    "./utils/*": "./src/utils/*"
+    "./utils/supabase-client": "./src/utils/supabase-client.ts"
   },
   "dependencies": {
-    "@tutors/community": "workspace:*",
     "@tutors/services": "workspace:*",
     "@tutors/tutors-model-lib": "workspace:*",
     "@tutors/types": "workspace:*",
-    "@auth/sveltekit": "1.11.2"
+    "@supabase/supabase-js": "^2.108.0",
+    "partysocket": "^1.1.19"
   },
   "peerDependencies": {
     "svelte": "^5.0.0"

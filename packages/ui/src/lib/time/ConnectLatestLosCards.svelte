@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { LoRecord } from "@tutors/services/community";
+  import type { LoRecord } from "@tutors/community";
   import StudentCard from "@tutors/ui/time/StudentCard.svelte";
 
   interface Props {

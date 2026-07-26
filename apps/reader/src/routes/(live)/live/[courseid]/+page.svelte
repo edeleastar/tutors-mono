@@ -9,7 +9,7 @@
     isReceivedAtInLocalWeek,
     isReceivedAtInLocalYear,
     isReceivedAtOnLocalDay
-  } from "@tutors/services/community";
+  } from "@tutors/community";
   import ConnectLatestLosCards from "@tutors/ui/time/ConnectLatestLosCards.svelte";
   import CourseGroupHeader from "@tutors/ui/time/CourseGroupHeader.svelte";
   import { Tabs } from "@skeletonlabs/skeleton-svelte";

@@ -1,4 +1,4 @@
-import { catalogueService } from "@tutors/services/community";
+import { catalogueService } from "@tutors/community";
 
 export const ssr = false;
 

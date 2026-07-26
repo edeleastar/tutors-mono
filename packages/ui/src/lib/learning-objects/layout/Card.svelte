@@ -1,6 +1,6 @@
 <script lang="ts">
   import Iconify from "@iconify/svelte";
-  import { LoRecord } from "@tutors/services/community";
+  import { LoRecord } from "@tutors/community";
   import { cardStyles, type CardConfig, type CardDetails } from "@tutors/themes";
   import Icon from "../../components/Icon.svelte";
   import { currentCourse } from "@tutors/services/runes";

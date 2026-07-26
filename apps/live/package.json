@@ -11,6 +11,7 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
   },
   "dependencies": {
+    "@tutors/community": "workspace:*",
     "@tutors/ui": "workspace:*",
     "@tutors/services": "workspace:*",
     "@tutors/tutors-model-lib": "workspace:*"

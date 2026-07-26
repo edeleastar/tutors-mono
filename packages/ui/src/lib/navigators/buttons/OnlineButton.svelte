@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { presenceService } from "@tutors/services/community";
+  import { presenceService } from "@tutors/community";
   import Sidebar from "@tutors/ui/components/Sidebar.svelte";
   import StudentCard from "../../time/StudentCard.svelte";
   import { t } from "@tutors/i18n";

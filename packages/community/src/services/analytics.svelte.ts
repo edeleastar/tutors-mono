@@ -8,7 +8,7 @@ import type { TutorsId } from "@tutors/types";
 import type { Course, Lo } from "@tutors/tutors-model-lib";
 import { storeStudentCourseLearningObjectInSupabase, updateLearningRecordsDuration, updateCalendarDuration, addOrUpdateStudent, formatDate } from "../utils/supabase-client.ts";
 import type { AnalyticsService } from "../types.svelte.ts";
-import log from "../../logger.ts";
+import log from "@tutors/services/logger";
 
 export const analyticsService: AnalyticsService = {
   /** Current learning object route being tracked */

@@ -5,7 +5,7 @@
  * Requires authenticated user context from tutorsConnectService
  */
 
-import { supabase } from "@tutors/services/community";
+import { supabase } from "@tutors/community";
 import { tutorsId } from "@tutors/services/runes";
 import log from "@tutors/services/logger";
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { liveService, LoRecord } from "@tutors/services/community";
+  import { liveService, LoRecord } from "@tutors/community";
   import CourseGroupHeader from "./CourseGroupHeader.svelte";
   import StudentCard from "./StudentCard.svelte";
 

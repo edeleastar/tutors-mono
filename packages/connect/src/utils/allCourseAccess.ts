@@ -4,7 +4,7 @@
  */
 
 import type { Course, IconType } from "@tutors/tutors-model-lib";
-import { supabase } from "@tutors/services/community/utils/supabase-client";
+import { supabase } from "@tutors/community/utils/supabase-client";
 import type { CourseVisit } from "../types.ts";
 import log from "@tutors/services/logger";
 

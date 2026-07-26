@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { browser } from "$app/environment";
 import { themeService } from "../services/themes.svelte.ts";
 import { snow } from "./snow.ts";
 

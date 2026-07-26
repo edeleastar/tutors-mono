@@ -1,6 +1,6 @@
 <script lang="ts">
   import Iconify from "@iconify/svelte";
-  import type { LoEvent } from "@tutors/services/community";
+  import type { LoEvent } from "@tutors/community";
   import { cardStyles, type CardConfig } from "@tutors/themes";
   import Icon from "@tutors/ui/components/Icon.svelte";
   import { themeService } from "@tutors/themes";

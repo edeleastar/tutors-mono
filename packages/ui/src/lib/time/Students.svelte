@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { liveService } from "@tutors/services/community";
+  import { liveService } from "@tutors/community";
   import StudentCard from "./StudentCard.svelte";
 </script>
 

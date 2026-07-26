@@ -10,7 +10,7 @@ import { browser } from "$app/environment";
 import { goto } from "$app/navigation";
 import type { Course } from "@tutors/tutors-model-lib";
 
-import { analyticsService, presenceService } from "@tutors/services/community";
+import { analyticsService, presenceService } from "@tutors/community";
 import { PUBLIC_ANON_MODE } from "$env/static/public";
 
 import { currentCourse, currentLo, tutorsId } from "@tutors/services/runes";
@@ -25,7 +25,7 @@ import {
   getTutorsConnectUserSentiment,
   updateTutorsConnectUserOnlineStatus,
   updateTutorsConnectUserSentiment
-} from "@tutors/services/community/utils/supabase-client";
+} from "@tutors/community/utils/supabase-client";
 import log from "@tutors/services/logger";
 
 /** Global anonymous mode flag, controlled by environment variable */
