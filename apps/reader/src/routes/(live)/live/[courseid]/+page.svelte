@@ -10,8 +10,8 @@
     isReceivedAtInLocalYear,
     isReceivedAtOnLocalDay
   } from "@tutors/services/community";
-  import ConnectLatestLosCards from "$lib/ui/time/ConnectLatestLosCards.svelte";
-  import CourseGroupHeader from "$lib/ui/time/CourseGroupHeader.svelte";
+  import ConnectLatestLosCards from "@tutors/ui/time/ConnectLatestLosCards.svelte";
+  import CourseGroupHeader from "@tutors/ui/time/CourseGroupHeader.svelte";
   import { Tabs } from "@skeletonlabs/skeleton-svelte";
   import type { Course } from "@tutors/tutors-model-lib";
   import { t } from "@tutors/services/i18n";

@@ -4,7 +4,7 @@
   import { convertMdToHtml } from "@tutors/tutors-model-lib";
   import SecondaryNavigator from "@tutors/ui/navigators/SecondaryNavigator.svelte";
   import type { PageData } from "./$types";
-  import { sanitizeHtml } from "$lib/utils/sanitize";
+  import { sanitizeHtml } from "@tutors/ui/utils/sanitize";
 
   interface Props {
     data: PageData;

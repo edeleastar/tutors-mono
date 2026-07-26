@@ -3,7 +3,7 @@
   import Icon from "@tutors/ui/components/Icon.svelte";
   import Sidebar from "@tutors/ui/components/Sidebar.svelte";
   import { t } from "@tutors/services/i18n";
-  import { sanitizeHtml } from "$lib/utils/sanitize";
+  import { sanitizeHtml } from "../../utils/sanitize";
 </script>
 
 {#snippet menuSelector()}

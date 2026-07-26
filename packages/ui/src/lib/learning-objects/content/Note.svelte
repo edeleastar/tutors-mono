@@ -5,7 +5,7 @@
   import { copyCode } from "@tutors/services/markdown";
   import type { Lo } from "@tutors/tutors-model-lib";
   import { onDestroy, onMount } from "svelte";
-  import { sanitizeHtml } from "$lib/utils/sanitize";
+  import { sanitizeHtml } from "../../utils/sanitize";
 
   interface Props {
     lo: Lo;

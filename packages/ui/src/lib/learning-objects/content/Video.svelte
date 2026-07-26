@@ -4,7 +4,7 @@
   import { themeService } from "@tutors/services/themes";
   import { currentCourse } from "@tutors/services/runes";
   import { getVideoConfig } from "@tutors/tutors-model-lib";
-  import { sanitizeHtml } from "$lib/utils/sanitize";
+  import { sanitizeHtml } from "../../utils/sanitize";
 
   interface Props {
     lo: Lo;

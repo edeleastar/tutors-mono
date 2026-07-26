@@ -5,12 +5,12 @@
   import LayoutMenu from "@tutors/ui/navigators/LayoutMenu.svelte";
   import LlmsIndicator from "@tutors/ui/navigators/buttons/LlmsIndicator.svelte";
   import TutorsTimeIndicator from "@tutors/ui/navigators/buttons/TutorsTimeIndicator.svelte";
-  import TocButton from "./buttons/TocButton.svelte";
+  import TocButton from "@tutors/ui/navigators/buttons/TocButton.svelte";
   import InfoButton from "@tutors/ui/navigators/buttons/InfoButton.svelte";
   import AnonProfile from "@tutors/ui/navigators/tutors-connect/AnonProfile.svelte";
   import ConnectedProfile from "@tutors/ui/navigators/tutors-connect/ConnectedProfile.svelte";
   import TutorsTitle from "@tutors/ui/navigators/titles/TutorsTitle.svelte";
-  import CalendarButton from "./buttons/CalendarButton.svelte";
+  import CalendarButton from "@tutors/ui/navigators/buttons/CalendarButton.svelte";
   import CourseSentimentButton from "@tutors/ui/navigators/buttons/CourseSentimentButton.svelte";
   import { currentCourse, tutorsId } from "@tutors/services/runes";
   import { t } from "@tutors/services/i18n";

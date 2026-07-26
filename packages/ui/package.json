@@ -17,7 +17,8 @@
     "./learning-objects/layout/*": "./src/lib/learning-objects/layout/*",
     "./learning-objects/content/*": "./src/lib/learning-objects/content/*",
     "./learning-objects/structure/*": "./src/lib/learning-objects/structure/*",
-    "./time/StudentCard.svelte": "./src/lib/time/StudentCard.svelte",
+    "./time/*": "./src/lib/time/*",
+    "./utils/sanitize": "./src/lib/utils/sanitize.ts",
     "./styles.css": "./dist/style.css"
   },
   "scripts": {

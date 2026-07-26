@@ -1,6 +1,6 @@
 <script lang="ts">
   import { currentCourse } from "@tutors/services/runes";
-  import CourseShell from "$lib/ui/TutorsShell.svelte";
+  import CourseShell from "$lib/TutorsShell.svelte";
   import type { Snippet } from "svelte";
   type Props = { children: Snippet };
   let { children }: Props = $props();

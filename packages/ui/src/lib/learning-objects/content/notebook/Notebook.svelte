@@ -4,7 +4,7 @@
   import { afterNavigate } from "$app/navigation";
   import type { LiveNotebook } from "@tutors/services/course";
   import { currentCodeTheme } from "@tutors/services/markdown";
-  import { sanitizeHtml } from "$lib/utils/sanitize";
+  import { sanitizeHtml } from "../../../utils/sanitize";
   import { copyCode } from "@tutors/services/markdown";
   import NotebookCell from "./cells/NotebookCell.svelte";
   import "./notebook-styles.css";

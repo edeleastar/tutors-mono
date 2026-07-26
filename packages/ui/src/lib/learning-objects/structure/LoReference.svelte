@@ -2,7 +2,7 @@
   import type { Lo } from "@tutors/tutors-model-lib";
   import Icon from "@tutors/ui/components/Icon.svelte";
   import { goto } from "$app/navigation";
-  import { sanitizeHtml } from "$lib/utils/sanitize";
+  import { sanitizeHtml } from "../../utils/sanitize";
 
   let { lo }: { lo: Lo } = $props();
 

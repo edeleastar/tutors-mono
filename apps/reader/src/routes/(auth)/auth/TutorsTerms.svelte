@@ -1,7 +1,7 @@
 <script lang="ts">
   import { convertMdToHtml } from "@tutors/tutors-model-lib";
   import { t } from "@tutors/services/i18n";
-  import { sanitizeHtml } from "$lib/utils/sanitize";
+  import { sanitizeHtml } from "@tutors/ui/utils/sanitize";
 
   const content = $derived(convertMdToHtml(t("auth.terms")));
 </script>
