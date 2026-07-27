@@ -8,7 +8,6 @@
     "./runes": "./src/runes.svelte.ts",
     "./course": "./src/course/index.ts",
     "./markdown": "./src/markdown/index.ts",
-    "./a11y": "./src/a11y/index.ts",
     "./logger": "./src/logger.ts"
   },
   "dependencies": {

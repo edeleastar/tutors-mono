@@ -1,5 +1,5 @@
 import { animationDelay } from "@tutors/services/runes";
-import { prefersReducedMotion } from "@tutors/services/a11y";
+import { prefersReducedMotion } from "@tutors/a11y";
 import { cubicOut } from "svelte/easing";
 
 function duration() {

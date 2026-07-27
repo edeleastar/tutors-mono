@@ -1,5 +1,7 @@
-import { browser } from "$app/environment";
-import { rune } from "../runes.svelte.ts";
+import { rune } from "@tutors/services/runes";
+
+// Check if we're in a browser environment (avoiding $app/environment for package compatibility)
+const browser = typeof window !== "undefined";
 
 function getReducedMotion(): boolean {
   if (!browser) return false;

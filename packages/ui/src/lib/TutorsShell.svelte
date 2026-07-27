@@ -5,7 +5,7 @@
   import { animationDelay, hideMainNavigator } from "@tutors/services/runes";
   import { cubicIn, cubicOut } from "svelte/easing";
   import { fly, slide } from "svelte/transition";
-  import { prefersReducedMotion } from "@tutors/services/a11y";
+  import { prefersReducedMotion } from "@tutors/a11y";
   import { t } from "@tutors/i18n";
 
   type Props = { children: Snippet };
