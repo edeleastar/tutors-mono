@@ -1,6 +1,6 @@
 packages:
   - "packages/jsr/*"
-  - "packages/*"
+  - "packages/svelte/*"
   - "apps/*"
 allowBuilds:
   esbuild: true

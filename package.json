@@ -5,8 +5,7 @@
   "workspaces": [
     "apps/*",
     "packages/jsr/*",
-    "packages/*",
-    "services/*"
+    "packages/svelte/*"
   ],
   "scripts": {
     "dev": "npm run dev --workspace=apps/reader",
