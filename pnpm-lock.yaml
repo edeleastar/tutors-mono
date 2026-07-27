@@ -25,7 +25,7 @@ importers:
         version: link:../../packages/services
       '@tutors/tutors-model-lib':
         specifier: workspace:*
-        version: link:../../packages/model
+        version: link:../../packages/jsr/model
       '@tutors/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -74,7 +74,7 @@ importers:
         version: link:../../packages/services
       '@tutors/tutors-model-lib':
         specifier: workspace:*
-        version: link:../../packages/model
+        version: link:../../packages/jsr/model
       '@tutors/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -147,10 +147,10 @@ importers:
         version: link:../../packages/themes
       '@tutors/tutors-model-lib':
         specifier: workspace:*
-        version: link:../../packages/model
+        version: link:../../packages/jsr/model
       '@tutors/tutors-time-lib':
         specifier: workspace:*
-        version: link:../../packages/time
+        version: link:../../packages/jsr/time
       '@tutors/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -343,7 +343,7 @@ importers:
         version: link:../services
       '@tutors/tutors-model-lib':
         specifier: workspace:*
-        version: link:../model
+        version: link:../jsr/model
       partysocket:
         specifier: ^1.1.19
         version: 1.3.0
@@ -364,7 +364,7 @@ importers:
         version: link:../services
       '@tutors/tutors-model-lib':
         specifier: workspace:*
-        version: link:../model
+        version: link:../jsr/model
       svelte:
         specifier: ^5.0.0
         version: 5.56.8(@typescript-eslint/types@8.65.0)
@@ -382,7 +382,7 @@ importers:
         specifier: ^5.0.0
         version: 5.9.3
 
-  packages/model:
+  packages/jsr/model:
     dependencies:
       '@iktakahiro/markdown-it-katex':
         specifier: ^4.0.1
@@ -427,6 +427,12 @@ importers:
         specifier: ^0.0.5
         version: 0.0.5
 
+  packages/jsr/time:
+    dependencies:
+      '@supabase/supabase-js':
+        specifier: ^2.96.0
+        version: 2.110.8
+
   packages/services:
     dependencies:
       '@auth/sveltekit':
@@ -437,7 +443,7 @@ importers:
         version: 4.4.0
       '@tutors/tutors-model-lib':
         specifier: workspace:*
-        version: link:../model
+        version: link:../jsr/model
       loglevel:
         specifier: ^1.9.2
         version: 1.9.2
@@ -458,7 +464,7 @@ importers:
         version: link:../services
       '@tutors/tutors-model-lib':
         specifier: workspace:*
-        version: link:../model
+        version: link:../jsr/model
     devDependencies:
       svelte:
         specifier: ^5.0.0
@@ -466,12 +472,6 @@ importers:
       typescript:
         specifier: ^5.0.0
         version: 5.9.3
-
-  packages/time:
-    dependencies:
-      '@supabase/supabase-js':
-        specifier: ^2.96.0
-        version: 2.110.8
 
   packages/ui:
     dependencies:
@@ -519,7 +519,7 @@ importers:
         version: link:../themes
       '@tutors/tutors-model-lib':
         specifier: workspace:*
-        version: link:../model
+        version: link:../jsr/model
       codemirror:
         specifier: ^6.0.2
         version: 6.0.2

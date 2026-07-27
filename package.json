@@ -4,11 +4,8 @@
   "version": "0.0.1",
   "workspaces": [
     "apps/*",
-    "packages/model",
-    "packages/time",
-    "packages/services",
-    "packages/ui",
-    "packages/themes",
+    "packages/jsr/*",
+    "packages/*",
     "services/*"
   ],
   "scripts": {

@@ -1,13 +1,13 @@
 {
   "nodeModulesDir": "auto",
   "workspace": [
-    "./cli/tutors",
-    "./packages/model",
-    "./packages/gen",
-    "./packages/time"
+    "./packages/jsr/tutors",
+    "./packages/jsr/model",
+    "./packages/jsr/gen",
+    "./packages/jsr/time"
   ],
   "fmt": {
-    "include": ["./packages/gen/src/", "./packages/model/src/", "./cli/tutors/"],
+    "include": ["./packages/jsr/gen/src/", "./packages/jsr/model/src/", "./packages/jsr/tutors/"],
     "useTabs": false,
     "lineWidth": 180,
     "indentWidth": 2,
