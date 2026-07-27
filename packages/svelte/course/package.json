@@ -5,16 +5,14 @@
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
-    "./runes": "./src/runes.svelte.ts",
     "./course": "./src/course/index.ts",
-    "./markdown": "./src/markdown/index.ts",
-    "./logger": "./src/logger.ts"
+    "./markdown": "./src/markdown/index.ts"
   },
   "dependencies": {
+    "@tutors/logger": "workspace:*",
+    "@tutors/runes": "workspace:*",
     "@tutors/tutors-model-lib": "workspace:*",
-    "@auth/sveltekit": "1.11.2",
     "@marp-team/marp-core": "^4.3.1",
-    "loglevel": "^1.9.2",
     "mermaid": "^11.16.0",
     "shiki": "^4.2.0"
   },

@@ -1,4 +1,4 @@
-import { animationDelay } from "@tutors/course/runes";
+import { animationDelay } from "@tutors/runes";
 import { prefersReducedMotion } from "@tutors/a11y";
 import { cubicOut } from "svelte/easing";
 

@@ -1,9 +1,9 @@
 <script lang="ts">
   import { Popover, Portal } from "@skeletonlabs/skeleton-svelte";
   import Icon from "@tutors/ui/components/Icon.svelte";
-  import { tutorsId } from "@tutors/course/runes";
+  import { tutorsId } from "@tutors/runes";
   import { tutorsConnectService, COURSE_SENTIMENT_IDS, type CourseSentimentId } from "@tutors/connect";
-  import log from "@tutors/course/logger";
+  import log from "@tutors/logger";
   import { t } from "@tutors/i18n";
 
   let menuOpen = $state(false);

@@ -1,4 +1,4 @@
-import { courseProtocol } from "../../runes.svelte.ts";
+import { courseProtocol } from "@tutors/runes";
 import {
   allVideoLos,
   convertLoToHtml,

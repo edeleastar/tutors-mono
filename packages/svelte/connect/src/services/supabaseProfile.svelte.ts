@@ -6,8 +6,8 @@
  */
 
 import { supabase } from "@tutors/community";
-import { tutorsId } from "@tutors/course/runes";
-import log from "@tutors/course/logger";
+import { tutorsId } from "@tutors/runes";
+import log from "@tutors/logger";
 
 import type { Course, IconType } from "@tutors/tutors-model-lib";
 import type { CourseVisit, ProfileStore } from "../types.ts";

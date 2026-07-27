@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { currentCourse } from "@tutors/course/runes";
+  import { currentCourse } from "@tutors/runes";
   import LoContextTree from "./LoContextTree.svelte";
 </script>
 

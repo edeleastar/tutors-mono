@@ -3,7 +3,7 @@
   import { courseService } from "@tutors/course/course";
   import { currentCodeTheme, markdownService } from "@tutors/course/markdown";
   import { Combobox, Portal } from "@skeletonlabs/skeleton-svelte";
-  import { currentCourse } from "@tutors/course/runes";
+  import { currentCourse } from "@tutors/runes";
 
   const codeThemeItems = markdownService.codeThemes.map((element: { displayName: string; name: string }) => ({
     label: element.displayName,

@@ -1,13 +1,9 @@
-// See https://svelte.dev/docs/kit/types#app.d.ts
-// for information about these interfaces
-declare global {
-  const APP_VERSION: string;
+/// <reference types="@sveltejs/kit" />
 
+declare global {
   namespace App {
     // interface Error {}
-    interface Locals {
-      locale: import("@tutors/course/i18n").SupportedLocale;
-    }
+    // interface Locals {}
     // interface PageData {}
     // interface PageState {}
     // interface Platform {}

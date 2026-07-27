@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { injectCourseUrl, determineCourseUrl } from "../lo-tree";
-import { courseProtocol } from "../../../runes.svelte";
+import { courseProtocol } from "@tutors/runes";
 import type { Lo } from "@tutors/tutors-model-lib";
 
 /**

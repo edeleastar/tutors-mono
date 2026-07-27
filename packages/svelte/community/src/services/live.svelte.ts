@@ -6,7 +6,7 @@
 import PartySocket from "partysocket";
 import { PUBLIC_party_kit_main_room } from "$env/static/public";
 import { refreshLoRecord } from "./presence.svelte.ts";
-import { rune } from "@tutors/course/runes";
+import { rune } from "@tutors/runes";
 import { LoRecord, type LiveService } from "../types.svelte.ts";
 
 // Server URL from environment variables
