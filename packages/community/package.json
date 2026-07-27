@@ -12,7 +12,6 @@
   "dependencies": {
     "@tutors/services": "workspace:*",
     "@tutors/tutors-model-lib": "workspace:*",
-    "@tutors/types": "workspace:*",
     "@supabase/supabase-js": "^2.108.0",
     "partysocket": "^1.1.19"
   },

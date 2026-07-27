@@ -9,7 +9,7 @@ import { PUBLIC_party_kit_main_room } from "$env/static/public";
 import type { Course, Lo } from "@tutors/tutors-model-lib";
 import { rune, tutorsId } from "@tutors/services/runes";
 import { LoRecord, type LoUser, type PresenceService } from "../types.svelte.ts";
-import type { TutorsId } from "@tutors/types";
+import type { TutorsId } from "@tutors/tutors-model-lib";
 import { upsertTutorsConnectLatestLo } from "../utils/supabase-client.ts";
 
 // Server URL from environment variables

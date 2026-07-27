@@ -8,8 +8,8 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, PUBLIC_ANON_MODE } from "$env/static/public";
 import type { Course, Lo } from "@tutors/tutors-model-lib";
-import type { TutorsId } from "@tutors/types";
-import { COURSE_SENTIMENT_IDS } from "@tutors/types";
+import type { TutorsId } from "@tutors/tutors-model-lib";
+import { COURSE_SENTIMENT_IDS } from "@tutors/tutors-model-lib";
 import type { TutorsConnectLatestRow } from "../types.svelte.ts";
 import log from "@tutors/services/logger";
 

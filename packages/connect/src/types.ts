@@ -1,6 +1,6 @@
 import type { Course, IconType } from "@tutors/tutors-model-lib";
-import type { TutorsId as TutorsIdType, CourseSentimentId as CourseSentimentIdType } from "@tutors/types";
-import { COURSE_SENTIMENT_IDS as SENTIMENT_IDS } from "@tutors/types";
+import type { TutorsId as TutorsIdType, CourseSentimentId as CourseSentimentIdType } from "@tutors/tutors-model-lib";
+import { COURSE_SENTIMENT_IDS as SENTIMENT_IDS } from "@tutors/tutors-model-lib";
 
 /**
  * Re-exports from @tutors/types for backward compatibility

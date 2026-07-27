@@ -7071,10 +7071,8 @@
           "dependencies": [
             "npm:@auth/sveltekit@1.11.2",
             "npm:@marp-team/marp-core@^4.3.1",
-            "npm:@supabase/supabase-js@^2.108.0",
             "npm:loglevel@^1.9.2",
             "npm:mermaid@^11.16.0",
-            "npm:partysocket@^1.1.19",
             "npm:shiki@^4.2.0"
           ]
         }

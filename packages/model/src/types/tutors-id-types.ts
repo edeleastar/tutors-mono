@@ -1,6 +1,5 @@
 /**
- * Shared types used across Tutors packages
- * This package has NO dependencies to avoid circular dependency issues
+ * User identity and authentication types
  */
 
 /**

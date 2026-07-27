@@ -1,4 +1,4 @@
-import type { TutorsId } from "@tutors/types";
+import type { TutorsId } from "@tutors/tutors-model-lib";
 import type { Course, Lo } from "@tutors/tutors-model-lib";
 
 export const rune = <T>(initialValue: T) => {

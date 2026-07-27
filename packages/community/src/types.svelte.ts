@@ -1,4 +1,4 @@
-import type { TutorsId } from "@tutors/types";
+import type { TutorsId } from "@tutors/tutors-model-lib";
 import type { Course, IconType, Lo } from "@tutors/tutors-model-lib";
 import PartySocket from "partysocket";
 /**
