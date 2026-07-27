@@ -14,7 +14,7 @@
     "@tutors/community": "workspace:*",
     "@tutors/themes": "workspace:*",
     "@tutors/ui": "workspace:*",
-    "@tutors/services": "workspace:*",
+    "@tutors/course": "workspace:*",
     "@tutors/tutors-model-lib": "workspace:*"
   },
   "devDependencies": {

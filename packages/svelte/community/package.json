@@ -10,7 +10,7 @@
     "./utils/supabase-client": "./src/utils/supabase-client.ts"
   },
   "dependencies": {
-    "@tutors/services": "workspace:*",
+    "@tutors/course": "workspace:*",
     "@tutors/tutors-model-lib": "workspace:*",
     "@supabase/supabase-js": "^2.108.0",
     "partysocket": "^1.1.19"

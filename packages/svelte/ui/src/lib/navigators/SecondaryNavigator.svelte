@@ -2,7 +2,7 @@
   import Breadcrumbs from "./buttons/Breadcrumbs.svelte";
   import EditCoursButton from "./buttons/EditCoursButton.svelte";
   import IconBar from "@tutors/ui/components/IconBar.svelte";
-  import { currentCourse } from "@tutors/services/runes";
+  import { currentCourse } from "@tutors/course/runes";
   import { themeService } from "@tutors/themes";
   import { t } from "@tutors/i18n";
 

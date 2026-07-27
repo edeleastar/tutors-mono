@@ -2,10 +2,10 @@
   import { browser } from "$app/environment";
   import { onDestroy, onMount } from "svelte";
   import { afterNavigate } from "$app/navigation";
-  import type { LiveNotebook } from "@tutors/services/course";
-  import { currentCodeTheme } from "@tutors/services/markdown";
+  import type { LiveNotebook } from "@tutors/course/course";
+  import { currentCodeTheme } from "@tutors/course/markdown";
   import { sanitizeHtml } from "../../../utils/sanitize";
-  import { copyCode } from "@tutors/services/markdown";
+  import { copyCode } from "@tutors/course/markdown";
   import NotebookCell from "./cells/NotebookCell.svelte";
   import "./notebook-styles.css";
 

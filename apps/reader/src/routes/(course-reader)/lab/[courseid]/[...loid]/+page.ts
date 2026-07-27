@@ -1,6 +1,6 @@
 import type { PageLoad } from "./$types";
-import { courseService } from "@tutors/services/course";
-import { currentLabStepIndex } from "@tutors/services/runes";
+import { courseService } from "@tutors/course/course";
+import { currentLabStepIndex } from "@tutors/course/runes";
 
 export const ssr = false;
 

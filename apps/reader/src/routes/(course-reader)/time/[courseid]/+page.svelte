@@ -1,11 +1,11 @@
 <script lang="ts">
   import { TutorsTime, type TutorsTimeStudent } from "@tutors/tutors-time-lib";
-  import { currentCourse, tutorsId } from "@tutors/services/runes";
+  import { currentCourse, tutorsId } from "@tutors/course/runes";
   import HeatMaps from "./HeatMaps.svelte";
   import Tables from "./Tables.svelte";
   import SecondaryNavigator from "@tutors/ui/navigators/SecondaryNavigator.svelte";
   import type { PageData } from "./$types";
-  import log from "@tutors/services/logger";
+  import log from "@tutors/course/logger";
 
   interface Props {
     data: PageData;

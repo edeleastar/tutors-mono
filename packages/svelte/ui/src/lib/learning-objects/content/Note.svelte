@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { hideMainNavigator } from "@tutors/services/runes";
-  import { currentCodeTheme } from "@tutors/services/markdown";
-  import { mermaidify } from "@tutors/services/markdown";
-  import { copyCode } from "@tutors/services/markdown";
+  import { hideMainNavigator } from "@tutors/course/runes";
+  import { currentCodeTheme } from "@tutors/course/markdown";
+  import { mermaidify } from "@tutors/course/markdown";
+  import { copyCode } from "@tutors/course/markdown";
   import type { Lo } from "@tutors/tutors-model-lib";
   import { onDestroy, onMount } from "svelte";
   import { sanitizeHtml } from "../../utils/sanitize";

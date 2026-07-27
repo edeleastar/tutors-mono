@@ -20,9 +20,9 @@ importers:
       '@tutors/community':
         specifier: workspace:*
         version: link:../../packages/svelte/community
-      '@tutors/services':
+      '@tutors/course':
         specifier: workspace:*
-        version: link:../../packages/svelte/services
+        version: link:../../packages/svelte/course
       '@tutors/themes':
         specifier: workspace:*
         version: link:../../packages/svelte/themes
@@ -72,9 +72,9 @@ importers:
       '@tutors/community':
         specifier: workspace:*
         version: link:../../packages/svelte/community
-      '@tutors/services':
+      '@tutors/course':
         specifier: workspace:*
-        version: link:../../packages/svelte/services
+        version: link:../../packages/svelte/course
       '@tutors/themes':
         specifier: workspace:*
         version: link:../../packages/svelte/themes
@@ -142,12 +142,12 @@ importers:
       '@tutors/connect':
         specifier: workspace:*
         version: link:../../packages/svelte/connect
+      '@tutors/course':
+        specifier: workspace:*
+        version: link:../../packages/svelte/course
       '@tutors/i18n':
         specifier: workspace:*
         version: link:../../packages/svelte/i18n
-      '@tutors/services':
-        specifier: workspace:*
-        version: link:../../packages/svelte/services
       '@tutors/themes':
         specifier: workspace:*
         version: link:../../packages/svelte/themes
@@ -383,9 +383,9 @@ importers:
 
   packages/svelte/a11y:
     dependencies:
-      '@tutors/services':
+      '@tutors/course':
         specifier: workspace:*
-        version: link:../services
+        version: link:../course
       svelte:
         specifier: ^5.0.0
         version: 5.56.8(@typescript-eslint/types@8.65.0)
@@ -395,9 +395,9 @@ importers:
       '@supabase/supabase-js':
         specifier: ^2.108.0
         version: 2.110.8
-      '@tutors/services':
+      '@tutors/course':
         specifier: workspace:*
-        version: link:../services
+        version: link:../course
       '@tutors/tutors-model-lib':
         specifier: workspace:*
         version: link:../../jsr/model
@@ -416,9 +416,9 @@ importers:
       '@tutors/community':
         specifier: workspace:*
         version: link:../community
-      '@tutors/services':
+      '@tutors/course':
         specifier: workspace:*
-        version: link:../services
+        version: link:../course
       '@tutors/tutors-model-lib':
         specifier: workspace:*
         version: link:../../jsr/model
@@ -426,20 +426,7 @@ importers:
         specifier: ^5.0.0
         version: 5.56.8(@typescript-eslint/types@8.65.0)
 
-  packages/svelte/i18n:
-    dependencies:
-      '@tutors/services':
-        specifier: workspace:*
-        version: link:../services
-    devDependencies:
-      svelte:
-        specifier: ^5.0.0
-        version: 5.56.8(@typescript-eslint/types@8.65.0)
-      typescript:
-        specifier: ^5.0.0
-        version: 5.9.3
-
-  packages/svelte/services:
+  packages/svelte/course:
     dependencies:
       '@auth/sveltekit':
         specifier: 1.11.2
@@ -463,11 +450,24 @@ importers:
         specifier: ^5.0.0
         version: 5.56.8(@typescript-eslint/types@8.65.0)
 
+  packages/svelte/i18n:
+    dependencies:
+      '@tutors/course':
+        specifier: workspace:*
+        version: link:../course
+    devDependencies:
+      svelte:
+        specifier: ^5.0.0
+        version: 5.56.8(@typescript-eslint/types@8.65.0)
+      typescript:
+        specifier: ^5.0.0
+        version: 5.9.3
+
   packages/svelte/themes:
     dependencies:
-      '@tutors/services':
+      '@tutors/course':
         specifier: workspace:*
-        version: link:../services
+        version: link:../course
       '@tutors/tutors-model-lib':
         specifier: workspace:*
         version: link:../../jsr/model
@@ -514,12 +514,12 @@ importers:
       '@tutors/connect':
         specifier: workspace:*
         version: link:../connect
+      '@tutors/course':
+        specifier: workspace:*
+        version: link:../course
       '@tutors/i18n':
         specifier: workspace:*
         version: link:../i18n
-      '@tutors/services':
-        specifier: workspace:*
-        version: link:../services
       '@tutors/themes':
         specifier: workspace:*
         version: link:../themes

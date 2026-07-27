@@ -9,7 +9,7 @@
     "./messages/*": "./src/messages/*"
   },
   "dependencies": {
-    "@tutors/services": "workspace:*"
+    "@tutors/course": "workspace:*"
   },
   "devDependencies": {
     "svelte": "^5.0.0",

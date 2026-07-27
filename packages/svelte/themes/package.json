@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@tutors/tutors-model-lib": "workspace:*",
-    "@tutors/services": "workspace:*"
+    "@tutors/course": "workspace:*"
   },
   "devDependencies": {
     "svelte": "^5.0.0",

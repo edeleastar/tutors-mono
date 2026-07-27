@@ -5,7 +5,7 @@
   import Menu from "@tutors/ui/components/Menu.svelte";
   import OnlineButton from "../buttons/OnlineButton.svelte";
   import Icon from "@tutors/ui/components/Icon.svelte";
-  import { currentCourse, tutorsId } from "@tutors/services/runes";
+  import { currentCourse, tutorsId } from "@tutors/course/runes";
   import { analyticsEnabled } from "@tutors/connect";
   import { t } from "@tutors/i18n";
 

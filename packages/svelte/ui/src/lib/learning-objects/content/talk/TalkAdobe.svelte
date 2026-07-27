@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from "$app/state";
   import { PUBLIC_PDF_KEY } from "$env/static/public";
-  import { adobeLoaded, currentCourse } from "@tutors/services/runes";
+  import { adobeLoaded, currentCourse } from "@tutors/course/runes";
   import type { Talk } from "@tutors/tutors-model-lib";
   import { onMount } from "svelte";
 

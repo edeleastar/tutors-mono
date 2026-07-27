@@ -11,7 +11,7 @@ import type { Course, Lo } from "@tutors/tutors-model-lib";
 import type { TutorsId } from "@tutors/tutors-model-lib";
 import { COURSE_SENTIMENT_IDS } from "@tutors/tutors-model-lib";
 import type { TutorsConnectLatestRow } from "../types.svelte.ts";
-import log from "@tutors/services/logger";
+import log from "@tutors/course/logger";
 
 export let supabase: SupabaseClient;
 

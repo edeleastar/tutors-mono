@@ -6,7 +6,7 @@
 import type { Course, IconType } from "@tutors/tutors-model-lib";
 import { supabase } from "@tutors/community/utils/supabase-client";
 import type { CourseVisit } from "../types.ts";
-import log from "@tutors/services/logger";
+import log from "@tutors/course/logger";
 
 /**
  * Updates the course access statistics in the database

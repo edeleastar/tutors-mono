@@ -1,9 +1,9 @@
 <script lang="ts">
   import { themeService } from "@tutors/themes";
-  import { courseService } from "@tutors/services/course";
-  import { currentCodeTheme, markdownService } from "@tutors/services/markdown";
+  import { courseService } from "@tutors/course/course";
+  import { currentCodeTheme, markdownService } from "@tutors/course/markdown";
   import { Combobox, Portal } from "@skeletonlabs/skeleton-svelte";
-  import { currentCourse } from "@tutors/services/runes";
+  import { currentCourse } from "@tutors/course/runes";
 
   const codeThemeItems = markdownService.codeThemes.map((element: { displayName: string; name: string }) => ({
     label: element.displayName,

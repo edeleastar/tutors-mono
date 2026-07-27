@@ -3,8 +3,8 @@
   import { onDestroy, onMount } from "svelte";
   import { Progress } from "@skeletonlabs/skeleton-svelte";
   import type { Talk } from "@tutors/tutors-model-lib";
-  import { renderMarpSlides, buildMarpMarkdown } from "@tutors/services/markdown";
-  import { mermaidify } from "@tutors/services/markdown";
+  import { renderMarpSlides, buildMarpMarkdown } from "@tutors/course/markdown";
+  import { mermaidify } from "@tutors/course/markdown";
   import Icon from "@tutors/ui/components/Icon.svelte";
 
   interface Props {

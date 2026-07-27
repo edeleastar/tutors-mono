@@ -1,7 +1,7 @@
 <script lang="ts">
   import "../app.css";
   import TutorsShell from "@tutors/ui/TutorsShell.svelte";
-  import { currentCourse } from "@tutors/services/runes";
+  import { currentCourse } from "@tutors/course/runes";
   import { themeService } from "@tutors/themes";
   import { browser } from "$app/environment";
   import { onMount } from "svelte";

@@ -2,7 +2,7 @@
   import type { Lo } from "@tutors/tutors-model-lib";
   import Cards from "../layout/Cards.svelte";
   import Video from "../content/Video.svelte";
-  import { currentCourse } from "@tutors/services/runes";
+  import { currentCourse } from "@tutors/course/runes";
   import SecondaryNavigator from "@tutors/ui/navigators/SecondaryNavigator.svelte";
   import Podcast from "../content/Podcast.svelte";
 

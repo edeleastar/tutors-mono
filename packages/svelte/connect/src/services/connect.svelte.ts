@@ -13,7 +13,7 @@ import type { Course } from "@tutors/tutors-model-lib";
 import { analyticsService, presenceService } from "@tutors/community";
 import { PUBLIC_ANON_MODE } from "$env/static/public";
 
-import { currentCourse, currentLo, tutorsId } from "@tutors/services/runes";
+import { currentCourse, currentLo, tutorsId } from "@tutors/course/runes";
 import { localStorageProfile } from "./localStorageProfile.ts";
 
 import { updateCourseList } from "../utils/allCourseAccess.ts";
@@ -26,7 +26,7 @@ import {
   updateTutorsConnectUserOnlineStatus,
   updateTutorsConnectUserSentiment
 } from "@tutors/community/utils/supabase-client";
-import log from "@tutors/services/logger";
+import log from "@tutors/course/logger";
 
 /** Global anonymous mode flag, controlled by environment variable */
 let anonMode = false;

@@ -1,9 +1,9 @@
 <script lang="ts">
   import { browser } from "$app/environment";
-  import { currentCourse } from "@tutors/services/runes";
+  import { currentCourse } from "@tutors/course/runes";
   import TalkAdobe from "./TalkAdobe.svelte";
   import type { Talk } from "@tutors/tutors-model-lib";
-  import { isMarpContent } from "@tutors/services/markdown";
+  import { isMarpContent } from "@tutors/course/markdown";
 
   interface Props {
     lo: Talk;

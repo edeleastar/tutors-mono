@@ -8,7 +8,7 @@
     ".": "./src/index.ts"
   },
   "dependencies": {
-    "@tutors/services": "workspace:*"
+    "@tutors/course": "workspace:*"
   },
   "peerDependencies": {
     "svelte": "^5.0.0"

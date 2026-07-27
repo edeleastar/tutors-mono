@@ -2,11 +2,11 @@
   import { browser } from "$app/environment";
   import { onDestroy, onMount } from "svelte";
   import { goto, afterNavigate } from "$app/navigation";
-  import type { LiveLab } from "@tutors/services/course";
-  import { currentCodeTheme } from "@tutors/services/markdown";
+  import type { LiveLab } from "@tutors/course/course";
+  import { currentCodeTheme } from "@tutors/course/markdown";
   import { sanitizeHtml } from "../../../utils/sanitize";
-  import { mermaidify } from "@tutors/services/markdown";
-  import { copyCode } from "@tutors/services/markdown";
+  import { mermaidify } from "@tutors/course/markdown";
+  import { copyCode } from "@tutors/course/markdown";
 
   interface Props {
     lab: LiveLab;

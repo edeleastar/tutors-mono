@@ -14,6 +14,6 @@ export default defineConfig({
   },
   plugins: [sveltekit(), tailwindcss()],
   ssr: {
-    noExternal: ["@tutors/services", "@tutors/themes", "@tutors/i18n"]
+    noExternal: ["@tutors/course", "@tutors/themes", "@tutors/i18n"]
   }
 });

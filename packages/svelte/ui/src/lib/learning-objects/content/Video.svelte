@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import type { Lo } from "@tutors/tutors-model-lib";
   import { themeService } from "@tutors/themes";
-  import { currentCourse } from "@tutors/services/runes";
+  import { currentCourse } from "@tutors/course/runes";
   import { getVideoConfig } from "@tutors/tutors-model-lib";
   import { sanitizeHtml } from "../../utils/sanitize";
 

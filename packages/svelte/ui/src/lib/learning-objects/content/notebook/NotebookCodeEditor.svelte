@@ -1,7 +1,7 @@
 <script lang="ts">
   import { browser } from "$app/environment";
   import { onMount, onDestroy } from "svelte";
-  import { currentCodeTheme } from "@tutors/services/markdown";
+  import { currentCodeTheme } from "@tutors/course/markdown";
   import "./notebook-styles.css";
 
   interface Props {

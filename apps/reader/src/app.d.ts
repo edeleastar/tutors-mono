@@ -6,7 +6,7 @@ declare global {
   namespace App {
     // interface Error {}
     interface Locals {
-      locale: import("@tutors/services/i18n").SupportedLocale;
+      locale: import("@tutors/course/i18n").SupportedLocale;
     }
     // interface PageData {}
     // interface PageState {}
