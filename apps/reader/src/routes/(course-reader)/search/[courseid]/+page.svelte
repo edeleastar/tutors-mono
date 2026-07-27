@@ -6,10 +6,10 @@
   import type { Course } from "@tutors/tutors-model-lib";
   import { convertMdToHtml } from "@tutors/tutors-model-lib";
   import type { PageData } from "./$types";
-  import { currentLo } from "@tutors/services/runes";
-  import { currentCodeTheme } from "@tutors/services/markdown";
+  import { currentLo } from "@tutors/course/runes";
+  import { currentCodeTheme } from "@tutors/course/markdown";
   import Icon from "@tutors/ui/components/Icon.svelte";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
   import { sanitizeHtml } from "@tutors/ui/utils/sanitize";
 
   interface Props {

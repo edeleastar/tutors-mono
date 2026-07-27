@@ -4,16 +4,16 @@
   "version": "0.0.1",
   "workspaces": [
     "apps/*",
-    "packages/model",
-    "packages/time",
-    "packages/services",
-    "packages/ui",
-    "packages/themes",
-    "services/*"
+    "packages/jsr/*",
+    "packages/svelte/*"
   ],
   "scripts": {
     "dev": "npm run dev --workspace=apps/reader",
     "build": "npm run build --workspace=apps/reader",
     "check": "npm run check --workspace=apps/reader"
+  },
+  "devDependencies": {
+    "clsx": "^2.1.1",
+    "esm-env": "^1.2.2"
   }
 }

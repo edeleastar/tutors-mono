@@ -9,12 +9,12 @@
     isReceivedAtInLocalWeek,
     isReceivedAtInLocalYear,
     isReceivedAtOnLocalDay
-  } from "@tutors/services/community";
+  } from "@tutors/community";
   import ConnectLatestLosCards from "@tutors/ui/time/ConnectLatestLosCards.svelte";
   import CourseGroupHeader from "@tutors/ui/time/CourseGroupHeader.svelte";
   import { Tabs } from "@skeletonlabs/skeleton-svelte";
   import type { Course } from "@tutors/tutors-model-lib";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   interface Props {
     data: { courseid: string; course: Course };

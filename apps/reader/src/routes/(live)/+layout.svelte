@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { currentCourse } from "@tutors/services/runes";
-  import { catalogueService } from "@tutors/services/community";
+  import { currentCourse } from "@tutors/course/runes";
+  import { catalogueService } from "@tutors/community";
   import CourseShell from "@tutors/ui/TutorsShell.svelte";
   import { onMount, type Snippet } from "svelte";
   type Props = { children: Snippet };

@@ -2,7 +2,7 @@
   import type { LabRow, LabMedianRow } from "@tutors/tutors-time-lib";
   import { extractLabIdentifier } from "@tutors/tutors-time-lib";
   import { formatTimeMinutesOnly, cellColorForMinutes } from "@tutors/tutors-time-lib";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   interface Props {
     courseid: string;

@@ -1,5 +1,5 @@
 import type { PageLoad } from "./$types";
-import { courseService } from "@tutors/services/course";
+import { courseService } from "@tutors/course/course";
 
 export const ssr = false;
 

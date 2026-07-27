@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { CalendarRow, CalendarMedianRow } from "@tutors/tutors-time-lib";
   import { formatDateShort, formatTimeMinutesOnly, cellColorForMinutes } from "@tutors/tutors-time-lib";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   interface Props {
     courseid: string;

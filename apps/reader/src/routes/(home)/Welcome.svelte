@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { tutorsId } from "@tutors/services/runes";
-  import { t } from "@tutors/services/i18n";
+  import { tutorsId } from "@tutors/course/runes";
+  import { t } from "@tutors/i18n";
 </script>
 
 {#if tutorsId.value?.name}

@@ -26,5 +26,5 @@ Runs on http://localhost:5175
 
 - SvelteKit + Svelte 5
 - `@tutors/ui` components
-- `@tutors/services` for catalogue data
+- `@tutors/course` for catalogue data
 - Tailwind CSS v4 + Skeleton UI

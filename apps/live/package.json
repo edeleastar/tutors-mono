@@ -11,9 +11,11 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
   },
   "dependencies": {
-    "@tutors/ui": "*",
-    "@tutors/services": "*",
-    "@tutors/tutors-model-lib": "*"
+    "@tutors/community": "workspace:*",
+    "@tutors/themes": "workspace:*",
+    "@tutors/ui": "workspace:*",
+    "@tutors/course": "workspace:*",
+    "@tutors/tutors-model-lib": "workspace:*"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",

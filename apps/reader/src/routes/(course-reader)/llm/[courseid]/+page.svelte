@@ -1,6 +1,6 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import { currentCourse } from "@tutors/services/runes";
+  import { currentCourse } from "@tutors/course/runes";
   import { convertMdToHtml } from "@tutors/tutors-model-lib";
   import SecondaryNavigator from "@tutors/ui/navigators/SecondaryNavigator.svelte";
   import type { PageData } from "./$types";

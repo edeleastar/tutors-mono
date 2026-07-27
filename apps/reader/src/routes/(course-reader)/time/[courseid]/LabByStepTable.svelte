@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { LabRow, LabMedianRow } from "@tutors/tutors-time-lib";
   import { extractStepName, formatTimeMinutesOnly, cellColorForMinutes } from "@tutors/tutors-time-lib";
-  import { t } from "@tutors/services/i18n";
+  import { t } from "@tutors/i18n";
 
   interface Props {
     courseid: string;

@@ -1,10 +1,10 @@
 <script lang="ts">
   import Icon from "@iconify/svelte";
   import { Progress } from "@skeletonlabs/skeleton-svelte";
-  import { tutorsConnectService } from "@tutors/services/connect";
+  import { tutorsConnectService } from "@tutors/connect";
   import TutorsTerms from "./TutorsTerms.svelte";
-  import { themeService } from "@tutors/services/themes";
-  import { t } from "@tutors/services/i18n";
+  import { themeService } from "@tutors/themes";
+  import { t } from "@tutors/i18n";
 
   let showProgress = $state(false);
   interface Props {

@@ -12,5 +12,8 @@ export default defineConfig({
   define: {
     APP_VERSION: JSON.stringify(pkg.version)
   },
-  plugins: [tailwindcss(), sveltekit()]
+  plugins: [tailwindcss(), sveltekit()],
+  ssr: {
+    noExternal: ['@tutors/course', '@tutors/themes', '@tutors/i18n', '@tutors/community', '@tutors/connect']
+  }
 });
