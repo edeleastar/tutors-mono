@@ -1,4 +1,4 @@
-import { currentCourse } from "@tutors/course/runes";
+import { currentCourse } from "@tutors/runes";
 import { courseService } from "@tutors/course/course";
 
 export const ssr = false;

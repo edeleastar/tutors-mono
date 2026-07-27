@@ -9,6 +9,7 @@
     "./messages/*": "./src/messages/*"
   },
   "dependencies": {
+    "@tutors/runes": "workspace:*",
     "@tutors/course": "workspace:*"
   },
   "devDependencies": {

@@ -6,7 +6,7 @@
   import type { Course } from "@tutors/tutors-model-lib";
   import { convertMdToHtml } from "@tutors/tutors-model-lib";
   import type { PageData } from "./$types";
-  import { currentLo } from "@tutors/course/runes";
+  import { currentLo } from "@tutors/runes";
   import { currentCodeTheme } from "@tutors/course/markdown";
   import Icon from "@tutors/ui/components/Icon.svelte";
   import { t } from "@tutors/i18n";

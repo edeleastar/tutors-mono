@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { currentLo } from "@tutors/course/runes";
+  import { currentLo } from "@tutors/runes";
   import type { Lo } from "@tutors/tutors-model-lib";
   import Image from "@tutors/ui/components/Image.svelte";
   import LoContext from "../structure/LoContext.svelte";

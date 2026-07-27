@@ -1,6 +1,6 @@
 import type { CatalogueEntry, CatalogueService } from "../types.svelte.ts";
 import { supabase } from "../utils/supabase-client.ts";
-import log from "@tutors/course/logger";
+import log from "@tutors/logger";
 
 export const catalogueService: CatalogueService = {
   async getCatalogue() {

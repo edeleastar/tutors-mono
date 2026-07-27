@@ -11,6 +11,8 @@
     "./events/*": "./src/events/*"
   },
   "dependencies": {
+    "@tutors/logger": "workspace:*",
+    "@tutors/runes": "workspace:*",
     "@tutors/tutors-model-lib": "workspace:*",
     "@tutors/course": "workspace:*"
   },

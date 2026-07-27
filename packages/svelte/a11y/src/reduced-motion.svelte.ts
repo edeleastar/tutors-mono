@@ -1,4 +1,4 @@
-import { rune } from "@tutors/course/runes";
+import { rune } from "@tutors/runes";
 
 // Check if we're in a browser environment (avoiding $app/environment for package compatibility)
 const browser = typeof window !== "undefined";

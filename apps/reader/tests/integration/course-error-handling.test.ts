@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
 import { courseService } from "@tutors/course/course";
-import { courseProtocol } from "@tutors/course/runes";
+import { courseProtocol } from "@tutors/runes";
 
 describe("Course Service - Error Handling", () => {
   let mockFetch: ReturnType<typeof vi.fn>;

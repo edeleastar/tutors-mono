@@ -2,7 +2,7 @@
   import Footer from "./navigators/footers/Footer.svelte";
   import { onMount, type Snippet } from "svelte";
   import MainNavigator from "./navigators/MainNavigator.svelte";
-  import { animationDelay, hideMainNavigator } from "@tutors/course/runes";
+  import { animationDelay, hideMainNavigator } from "@tutors/runes";
   import { cubicIn, cubicOut } from "svelte/easing";
   import { fly, slide } from "svelte/transition";
   import { prefersReducedMotion } from "@tutors/a11y";

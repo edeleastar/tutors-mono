@@ -27,6 +27,8 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
+    "@tutors/logger": "workspace:*",
+    "@tutors/runes": "workspace:*",
     "@codemirror/autocomplete": "^6.20.3",
     "@codemirror/commands": "^6.10.4",
     "@codemirror/lang-python": "^6.2.1",

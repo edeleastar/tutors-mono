@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from "$app/state";
-  import { currentCourse, currentLabStepIndex, currentLo } from "@tutors/course/runes";
+  import { currentCourse, currentLabStepIndex, currentLo } from "@tutors/runes";
   import Icon from "@tutors/ui/components/Icon.svelte";
   import { t } from "@tutors/i18n";
 

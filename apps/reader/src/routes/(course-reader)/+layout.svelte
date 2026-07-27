@@ -3,7 +3,7 @@
   import type { Snippet } from "svelte";
   import { tutorsConnectService } from "@tutors/connect";
   import { page } from "$app/state";
-  import { currentCourse } from "@tutors/course/runes";
+  import { currentCourse } from "@tutors/runes";
   import { afterNavigate } from "$app/navigation";
 
   type Props = { children: Snippet };

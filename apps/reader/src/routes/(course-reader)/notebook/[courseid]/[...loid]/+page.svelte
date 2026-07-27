@@ -2,7 +2,7 @@
   import type { PageData } from "./$types";
   import Context from "@tutors/ui/learning-objects/structure/Context.svelte";
   import Notebook from "@tutors/ui/learning-objects/content/notebook/Notebook.svelte";
-  import { hideMainNavigator } from "@tutors/course/runes";
+  import { hideMainNavigator } from "@tutors/runes";
   import { onDestroy, onMount } from "svelte";
 
   interface Props {

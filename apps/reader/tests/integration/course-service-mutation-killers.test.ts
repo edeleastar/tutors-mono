@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
 import { courseService } from "@tutors/course/course";
-import { currentCourse, currentLo, courseProtocol } from "@tutors/course/runes";
+import { currentCourse, currentLo, courseProtocol } from "@tutors/runes";
 import type { Course } from "@tutors/tutors-model-lib";
 
 /**

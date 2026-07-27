@@ -1,4 +1,4 @@
-import { rune } from "@tutors/course/runes";
+import { rune } from "@tutors/runes";
 import en, { type MessageKey } from "./messages/en.ts";
 import fr from "./messages/fr.ts";
 import de from "./messages/de.ts";

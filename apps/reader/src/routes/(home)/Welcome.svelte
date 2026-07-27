@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { tutorsId } from "@tutors/course/runes";
+  import { tutorsId } from "@tutors/runes";
   import { t } from "@tutors/i18n";
 </script>
 

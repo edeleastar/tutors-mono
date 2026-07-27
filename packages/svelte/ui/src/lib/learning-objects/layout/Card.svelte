@@ -3,7 +3,7 @@
   import { LoRecord } from "@tutors/community";
   import { cardStyles, type CardConfig, type CardDetails } from "@tutors/themes";
   import Icon from "../../components/Icon.svelte";
-  import { currentCourse } from "@tutors/course/runes";
+  import { currentCourse } from "@tutors/runes";
   import { themeService } from "@tutors/themes";
   import StudentCard from "../../time/StudentCard.svelte";
   import { sanitizeHtml } from "../../utils/sanitize";

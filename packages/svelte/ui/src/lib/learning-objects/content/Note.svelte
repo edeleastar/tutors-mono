@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { hideMainNavigator } from "@tutors/course/runes";
+  import { hideMainNavigator } from "@tutors/runes";
   import { currentCodeTheme } from "@tutors/course/markdown";
   import { mermaidify } from "@tutors/course/markdown";
   import { copyCode } from "@tutors/course/markdown";

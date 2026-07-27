@@ -11,9 +11,9 @@ import { EasterIcons } from "../icons/easter-icons.ts";
 import { FestiveIcons } from "../icons/festive-icons.ts";
 import { makeItSnow, makeItStopSnowing } from "../events/festive.svelte.ts";
 
-import { rune } from "@tutors/course/runes";
+import { rune } from "@tutors/runes";
 import type { IconType } from "@tutors/tutors-model-lib";
-import log from "@tutors/course/logger";
+import log from "@tutors/logger";
 
 /**
  * Implementation of the ThemeService interface.

@@ -3,7 +3,7 @@
   import Lab from "@tutors/ui/learning-objects/content/lab/Lab.svelte";
   import Context from "@tutors/ui/learning-objects/structure/Context.svelte";
   import TalkClient from "@tutors/ui/learning-objects/content/talk/TalkClient.svelte";
-  import { hideMainNavigator } from "@tutors/course/runes";
+  import { hideMainNavigator } from "@tutors/runes";
   import { onDestroy, onMount } from "svelte";
 
   interface Props {

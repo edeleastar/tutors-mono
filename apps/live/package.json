@@ -15,7 +15,9 @@
     "@tutors/themes": "workspace:*",
     "@tutors/ui": "workspace:*",
     "@tutors/course": "workspace:*",
-    "@tutors/tutors-model-lib": "workspace:*"
+    "@tutors/tutors-model-lib": "workspace:*",
+    "@tutors/runes": "workspace:*",
+    "@tutors/logger": "workspace:*"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",

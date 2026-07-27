@@ -12,7 +12,7 @@
   import TutorsTitle from "@tutors/ui/navigators/titles/TutorsTitle.svelte";
   import CalendarButton from "@tutors/ui/navigators/buttons/CalendarButton.svelte";
   import CourseSentimentButton from "@tutors/ui/navigators/buttons/CourseSentimentButton.svelte";
-  import { currentCourse, tutorsId } from "@tutors/course/runes";
+  import { currentCourse, tutorsId } from "@tutors/runes";
   import { t } from "@tutors/i18n";
 </script>
 

@@ -51,7 +51,7 @@ import xml from "shiki/langs/xml.mjs";
 import vue from "shiki/langs/vue.mjs";
 import { browser } from "$app/environment";
 import type { MarkdownService } from "../types.ts";
-import { courseProtocol, rune } from "../../runes.svelte.ts";
+import { courseProtocol, rune } from "@tutors/runes";
 
 /** Supported programming languages for syntax highlighting */
 const languages = [

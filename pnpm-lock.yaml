@@ -23,6 +23,12 @@ importers:
       '@tutors/course':
         specifier: workspace:*
         version: link:../../packages/svelte/course
+      '@tutors/logger':
+        specifier: workspace:*
+        version: link:../../packages/svelte/logger
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../../packages/svelte/runes
       '@tutors/themes':
         specifier: workspace:*
         version: link:../../packages/svelte/themes
@@ -75,6 +81,12 @@ importers:
       '@tutors/course':
         specifier: workspace:*
         version: link:../../packages/svelte/course
+      '@tutors/logger':
+        specifier: workspace:*
+        version: link:../../packages/svelte/logger
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../../packages/svelte/runes
       '@tutors/themes':
         specifier: workspace:*
         version: link:../../packages/svelte/themes
@@ -148,6 +160,12 @@ importers:
       '@tutors/i18n':
         specifier: workspace:*
         version: link:../../packages/svelte/i18n
+      '@tutors/logger':
+        specifier: workspace:*
+        version: link:../../packages/svelte/logger
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../../packages/svelte/runes
       '@tutors/themes':
         specifier: workspace:*
         version: link:../../packages/svelte/themes
@@ -386,6 +404,9 @@ importers:
       '@tutors/course':
         specifier: workspace:*
         version: link:../course
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../runes
       svelte:
         specifier: ^5.0.0
         version: 5.56.8(@typescript-eslint/types@8.65.0)
@@ -398,6 +419,12 @@ importers:
       '@tutors/course':
         specifier: workspace:*
         version: link:../course
+      '@tutors/logger':
+        specifier: workspace:*
+        version: link:../logger
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../runes
       '@tutors/tutors-model-lib':
         specifier: workspace:*
         version: link:../../jsr/model
@@ -419,6 +446,12 @@ importers:
       '@tutors/course':
         specifier: workspace:*
         version: link:../course
+      '@tutors/logger':
+        specifier: workspace:*
+        version: link:../logger
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../runes
       '@tutors/tutors-model-lib':
         specifier: workspace:*
         version: link:../../jsr/model
@@ -434,12 +467,15 @@ importers:
       '@marp-team/marp-core':
         specifier: ^4.3.1
         version: 4.4.0
+      '@tutors/logger':
+        specifier: workspace:*
+        version: link:../logger
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../runes
       '@tutors/tutors-model-lib':
         specifier: workspace:*
         version: link:../../jsr/model
-      loglevel:
-        specifier: ^1.9.2
-        version: 1.9.2
       mermaid:
         specifier: ^11.16.0
         version: 11.16.0
@@ -455,6 +491,9 @@ importers:
       '@tutors/course':
         specifier: workspace:*
         version: link:../course
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../runes
     devDependencies:
       svelte:
         specifier: ^5.0.0
@@ -463,11 +502,32 @@ importers:
         specifier: ^5.0.0
         version: 5.9.3
 
+  packages/svelte/logger:
+    dependencies:
+      loglevel:
+        specifier: ^1.9.2
+        version: 1.9.2
+
+  packages/svelte/runes:
+    dependencies:
+      '@tutors/tutors-model-lib':
+        specifier: workspace:*
+        version: link:../../jsr/model
+      svelte:
+        specifier: ^5.0.0
+        version: 5.56.8(@typescript-eslint/types@8.65.0)
+
   packages/svelte/themes:
     dependencies:
       '@tutors/course':
         specifier: workspace:*
         version: link:../course
+      '@tutors/logger':
+        specifier: workspace:*
+        version: link:../logger
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../runes
       '@tutors/tutors-model-lib':
         specifier: workspace:*
         version: link:../../jsr/model
@@ -520,6 +580,12 @@ importers:
       '@tutors/i18n':
         specifier: workspace:*
         version: link:../i18n
+      '@tutors/logger':
+        specifier: workspace:*
+        version: link:../logger
+      '@tutors/runes':
+        specifier: workspace:*
+        version: link:../runes
       '@tutors/themes':
         specifier: workspace:*
         version: link:../themes
